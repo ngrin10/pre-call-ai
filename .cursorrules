@@ -1,0 +1,36 @@
+# SCALESTREAM PRE-CALL SYSTEM™ V3.0 - Cursor Rules
+
+## Project Context
+You are working on the V3.0 SCALESTREAM PRE-CALL SYSTEM™ - an advanced sales call analysis and pre-call nurture automation system based on awareness spectrum methodology.
+
+## Core Methodology
+- **Awareness Spectrum**: Curious (60%) → General Interest (30%) → Serious (8%) → Convicted (2%)
+- **Goal**: Move prospects up 2-3 levels between booking and showing up
+- **Three-Layer Segmentation**: Awareness Level (Primary) → Business Context (Secondary) → Psychology (Tertiary)
+
+## Key Principles
+1. **Problem Aware** → Need heavy education about opportunity (longest nurture)
+2. **Solution Aware** → Need differentiation and proof (medium nurture) 
+3. **Product Aware** → Need ROI proof and risk reversal (shortest nurture)
+
+## File Structure Context
+- `/prompts/` - Claude prompts for forensic analysis and content generation
+- `/sops/` - Standard Operating Procedures for the V3.0 methodology
+- `/examples/` - Real examples of analyses, segments, and content
+- `/templates/` - Templates for content creation by awareness level
+- `/data/` - Client data, transcripts, and analysis results
+
+## AI Instructions
+When working with this system:
+1. Always reference the awareness spectrum framework
+2. Use the exact forensic analysis methodology from `/prompts/forensic-analysis.md`
+3. Follow the three-layer segmentation approach
+4. Focus on moving prospects up the awareness spectrum
+5. Use proven templates from `/templates/` directory
+6. Refer to examples in `/examples/` for context and quality standards
+
+## Priority Files to Reference
+- `prompts/forensic-analysis.md` - Master analysis prompt
+- `sops/v3-methodology.md` - Complete V3.0 methodology
+- `templates/awareness-segments.md` - Segment templates by awareness level
+- `examples/sample-analysis.md` - Example of proper forensic analysis output 

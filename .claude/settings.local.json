@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(rm:*)",
+      "Bash(mv:*)",
+      "Bash(./automation/process-transcripts.sh:*)",
+      "Bash(./automation/generate-content.sh:*)"
+    ],
+    "deny": []
+  }
+}
