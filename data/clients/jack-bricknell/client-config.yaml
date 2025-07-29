@@ -1,0 +1,67 @@
+# Client Configuration - jack-bricknell
+# This file defines all the variables needed to generate a custom CLAUDE.md
+
+client_info:
+  name: "jack-bricknell"
+  description: "[Business description - what they do]"
+  solution_category: "[Type of solution - e.g., visualization software, CRM, etc.]"
+  target_audience: "[Who they sell to - e.g., contractors, agencies]"
+  target_descriptor: "[Single word - e.g., contractor, agency, consultant]"
+
+paths:
+  transcript_path: "./data/clients/jack-bricknell/transcripts/"
+  background_file: "./data/clients/jack-bricknell/client-brief.md"
+  output_path: "./data/clients/jack-bricknell/analysis/"
+  master_analysis_file: "Transcript_analysis_extensive_2025.md"
+  final_analysis_file: "Transcript_analysis_extensive_2025_FINAL.md"
+
+business_metrics:
+  current_stats: "[e.g., 15% higher close rates reported]"
+  volume_metrics: "[e.g., 10,000+ users on platform]"
+  pricing_info: "[e.g., Starting at $249/month]"
+  sales_process: "[e.g., Demo-based sales, common objections include...]"
+
+awareness_stages:
+  problem_aware:
+    indicators:
+      - "[Pain point indicator 1]"
+      - "[Pain point indicator 2]"
+      - "[Pain point indicator 3]"
+    pain_points:
+      - "[Specific pain 1]"
+      - "[Specific pain 2]"
+    search_terms: "[What they search for]"
+    example: "[Example descriptor]"
+
+  solution_aware:
+    needs:
+      - "[Solution need 1]"
+      - "[Solution need 2]"
+    comparisons: "[What they compare]"
+    search_terms: "[Solution search terms]"
+    requirements: "[What they need]"
+    example: "[Example descriptor]"
+
+  product_aware:
+    behaviors:
+      - "[Product behavior 1]"
+      - "[Product behavior 2]"
+    search_terms: "[Product search terms]"
+    example: "[Example descriptor]"
+
+competitors:
+  main_competitors:
+    - name: "[Competitor 1]"
+      description: "[Why they're a threat]"
+    - name: "[Competitor 2]"
+      description: "[Why they're a threat]"
+  
+differentiation:
+  points:
+    - "[Key differentiator 1]"
+    - "[Key differentiator 2]"
+
+transcripts:
+  total: 0  # Update after adding transcripts
+  batch_size: 5  # Keep at 5 for forensic analysis
+  date_range: "[Date range of calls]"
