@@ -132,6 +132,16 @@ For each awareness level:
 - Validate awareness journey progression
 - Check timing and sequence flow
 
+### Step 4.4: Generate Visual Assets (Optional)
+```bash
+# Create Gamma presentations for each awareness level
+./automation/quick-commands.sh gamma [client-name]
+```
+- Creates educational deck for problem-aware
+- Creates comparison guide for solution-aware
+- Creates sales deck for product-aware
+- Exports as PDFs for email attachments
+
 ---
 
 ## 🚀 Phase 5: Implementation

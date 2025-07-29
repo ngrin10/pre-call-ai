@@ -1,0 +1,1851 @@
+1: "This meeting is being recorded with our team without having to hire so the promise of say
+eight to 12 meetings a month you know that's one person depending on pricing and what y'all
+could offer it could be an option for us so we just wanted to learn more yeah for sure I mean we
+better be good at cold emails if you know if we're gonna offer it as a service so I'm glad that glad
+that he liked it yeah I took a little bit of a look at Kanji you guys are in the MDM space device
+management I'm interested to hear a little bit about sort of like the value proposition of the
+company and you know services and everything else and then I will let you know how I think
+potentially we could we could help with emails yeah sure so it's pretty simple you know if you
+have a Mac device we put an agent on it to get to
+Allan Ramsay
+Secure and lock the device. things like, hey, like there's a new Chrome update. We'll update that
+for them. Hey, your passwords need to be aligned with how you want them secure, depending
+on like the industry.
+And we'll do that through the agent. We'll push the device when it's like onboarded so that it's
+like set up instantaneously instead of the employee having to do it by themselves.
+So long story short, we basically secure Apple devices for companies. We're Apple specific.
+We're reaching out to like IT managers, IT directors.
+A lot of the time, especially in our like ICP, like 200 employees plus, they already have
+something in, they already have something like a Jamf or a Mosul.
+And so we're trying to displace the current NBM. And then I'd also say there's like a legacy play
+of like Jamf is like Salesforce.
+It's the known place. You don't lose your job if you buy Jamf. And so there's definitely a
+reluctance to switch over to something, especially when the people who were above them, say
+like the director of VP, were growing up on Jamf.
+They've never actually had hands-on experience with Kanji. So they're also reluctant to do it.
+And then, you know, anytime you switch over and do change management, that can be pretty
+crazy too.
+Jack Bricknell
+Yeah, a headache to switch. What kind of makes that switch worth it?
+Allan Ramsay
+Yeah, sure. It's basically like time saved and ease of use.
+Jack Bricknell
+Got it.
+Allan Ramsay
+The easiest way to put it.
+Jack Bricknell
+Cool. So basically, people are using the old solution, especially at these larger companies,
+which is the ICP. They're using the old solution, Jamf.
+I recall that name because I was doing a bit of research. I saw them pop up. And you can come
+in, have a more efficient solution.
+That can save them X amount of time, and that is worth making the switch. Is there any other
+really key selling points?
+And are you guys, by the way, are you guys running any outbound email outreach at the
+moment?
+Allan Ramsay
+Yeah, so I'm trying to do something, I'm doing it with Apollo right now. Basically looking at like
+their workflows and then trying to find target contacts and finding sequences.
+It's like, it's frustrating because we get opens, we get replies, they're not great replies. A lot of
+like bounced emails, as you know, like warming up an inbox is hard.
+And so that's kind of like what we're running into right now is like, what does it look like as you're
+building this out?
+But yeah, that's already happening. I what I am seeing is like, we are driving people to website
+visits, right?
+So like, I think like 10% of the emails that are the- Contacts that I've been sending this out to,
+they're actually going to the website.
+So that tells me that we're landing somewhere, it's just people are unafraid, they don't want to
+respond, and I get it, it's a sales email, so I'm trying to figure out how to get more responses.
+Jack Bricknell
+Yep, yep, yep, yep. Okay, so using Apollo, one thing you're going to want to do with all Apollo
+emails, so, for instance, we use tools that, like, we don't use Apollo to send because it's not
+ideal, we have, like, platforms like Instantly.ai or Smartly.ai that are specifically built for cold
+email sending, so that's something you might want to look into.
+And then, for bounced emails, you're going to want to use a tool, Million Verifier, so Apollo
+claims that they have verified emails, that isn't entirely true, because we run all our lists through
+Million Verifier.
+Verifier separately, you're going to find around like 5% are dead emails, and then like 20 to 30%
+are catch all.
+And so that's what will lead to like a high bounce rate. So if you're seeing bounce rates over like
+3%, or especially over 5%, that's pretty unhealthy.
+you want to make sure that you verify it through Million Verifier.
+Allan Ramsay
+I've heard this from a couple of people that I've reached out to. With Million Verifier, is that
+something I can connect into Apollo, or do you like download the list to Apollo, run it through
+Million Verifier, and then bring it back into Apollo?
+Jack Bricknell
+Typically download the list and dropping it in there. We don't use, I don't know if Apollo has an
+API integration, it might, but it's fairly easy to just drop the list in there and pop it in.
+You can get a million, million Verifier credits for like 300 bucks. I think it's like 389. And then you
+just won't, you know, you won't need it for like three.
+More and more. As far as, yeah, a lot of people will visit your website when they see it. That is a
+pretty good sign of interest, although a lot of people just want to check out who is this person.
+Do you know how many emails, roughly, you're sending on a daily basis and what your
+response rates are, like roughly?
+Allan Ramsay
+We're sending anywhere, so for those two people, we have 15 inboxes set up for each of them
+across two domains, and we're sending anywhere from like 750 to 1300.
+So probably about 50 emails per inbox per day.
+Jack Bricknell
+Gotcha.
+Allan Ramsay
+What are your thoughts on that?
+Jack Bricknell
+Are the domains you're sending from, are you sending from kanji.io or?
+Allan Ramsay
+A different one. So we use the kanji.io for like one inbox, just because that's a good one. And
+the other one is through the other domain try kanji.
+Jack Bricknell
+Okay, so you guys have kind of the look-like setup. I'll tell you what we do, and then I'll tell you
+what I'd suggest.
+So we typically send 15 per day per inbox. We set up three inboxes per domain, and so we go a
+ton of different domains.
+And you have the idea right. It's like tryKanji.io, tryKanjiSoftware.io, that kind of thing.
+Allan Ramsay
+How many domains did you say you had?
+Jack Bricknell
+Sorry?
+Allan Ramsay
+How many domains did you say you had?
+Jack Bricknell
+I missed that. So you do three inboxes per domain, and so we went to ascending volume like a
+baseline of like the smallest setup we ever do is like 2,000 emails a day.
+So like for this, I kind of see this as more of a, well, I'll get to that later. But for- I
+I would say you want to probably triple the amount of volume just because email is kind of a
+volume game, and if you're talking about IT people at 200-plus employee US companies, you've
+got a pretty big TAM to attack, so having a volume that high is not a problem.
+15 per inbox per day, we used to be able to do 50. Nowadays, you're going to start to have
+deliverability issues if you're sending that much volume per inbox, it can be a big problem.
+Using the kanji.io domain, you might have not as big of a problem because probably internally
+you're sending a ton of emails, so that can kind of be masked.
+But using a fresh domain like try kanji.io, maybe that you've warmed up for two weeks, you'll
+eventually start having issues if you're still sending 50 per inbox.
+Do you know what your reply rates are right now?
+Allan Ramsay
+About one. let's say now. 그러면 we'll And a half percent, depending on the sequence.
+Jack Bricknell
+Yeah. And a lot of those are probably out of office as well.
+Allan Ramsay
+I would say 75% are like actual replies.
+Jack Bricknell
+Okay.
+Allan Ramsay
+75% are out of office.
+Jack Bricknell
+Got it. Are most of the replies, I mean, with the standard with cold email is like, even us, you
+know, we do this, like, this is what we do.
+Most cold email replies are still negative, like unsubscribe, not interested. But do you know, idea
+on like what percentage of the 1% overall would be like positive replies, like 10%, 5%, 20%?
+Allan Ramsay
+10% probably sounds right.
+Jack Bricknell
+Yeah. Okay. So I would say you're, we try to aim for a 3% overall reply rate. Yeah. On the try to
+aim for like, between 10 and 20% of those responses to be positive.
+Allan Ramsay
+it.
+Jack Bricknell
+So I'd say probably the setup is probably partly an issue, because you should be up at a higher
+overall reply rate, which is more about your deliverability than the copy you're writing.
+Allan Ramsay
+I agree with that. I think that a lot of people, when they're looking at my emails, they're like,
+they're not perfect.
+I'm like, I don't actually think that, and I could get in an argument about this with a lot of people, I
+don't actually think it's the email you're writing.
+Jack Bricknell
+It's like, is the person in the buying cycle, right?
+Allan Ramsay
+And if you can hit home with something, I don't think it needs to be the perfect email. You just
+need to, tell me if I'm wrong, but you just need to get in the inbox.
+That's the game.
+Jack Bricknell
+And that's really why we use a tool that's specifically for cold emailing. We use like different, like,
+we have four different cold email softwares that we routinely rotate through and track data on
+which one gets to the inbox.
+Because especially with an offering like Kanji's, like it's more so, it's a little bit closer to like
+demand capture than it is to demand generation in that you're finding those people that have a
+pain point probably right now with, you know, one of the legacy solutions, and then you're, you
+know, you just need to take those people, rather than convincing someone who's already super
+happy with job or whatever.
+So yeah, I think definitely we want to send more emails. And we want to get you like, I would
+say, you know, keep your Apollo thing running.
+But if we did a setup, we would set it up inside one of our softwares where we're going to have a
+much like 3x the reply rate.
+And so even if we're still staying at that 10%, like if we took the exact copy you're using, didn't
+implement any of our changes and just had that 10% positive reply rate, you'd have three times
+more interested leads simply because the reply rate is three times higher.
+Allan Ramsay
+Do want give us a peek behind the kimono of what you're actually doing, or is it like black box?
+Jack Bricknell
+So we can add you into a workspace, into one of our software. So let's say we set up a reach
+inbox for you, and then you can jump in.
+Some clients, they just want us to book the meetings onto their calendar. Some clients, just CC
+you in to all the interested responses, and then also do the appointment setting.
+And then some, you know, you want to be super involved and be in the workspace.
+Allan Ramsay
+Everything kind of works, just depending on what you want. Yeah. I'm just trying to learn, you
+know, twofold. One for this company, but just for my like edification, I think this is the way it's
+secure.
+And selfishly, I want to like learn how to do it. Yeah. I would be interested if it's not a black box,
+like where you're showing us like, hey, here's the steps we're taking with cleaning in emails, the
+things we're using.
+And I'm also getting a lot of pushback on our side of like, well, we don't need extra domains.
+Why is that the case?
+Jack Bricknell
+I'm like, you're all idiots. Yeah, so like, for example, if we do a 3,000 email setup, 3,000 emails,
+we're sending 15, that's 200 inboxes we need, and it's three inboxes per domain.
+So you're looking at 66 domains, which like, we just include that. Like, if you, you know, work
+with us, we just buy all that infrastructure.
+For you. But yeah, like I can, I can imagine trying to deal with like, you just want to buy a few
+more $12 domains and having to deal with that is it's definitely frustrating.
+Allan Ramsay
+How much they cost? It's just, well, how much does it cost? Let me ask you this quick.
+Jack Bricknell
+How much does it cost to do the domain plus set it up on like Google? Um, well, we have some
+really nifty ways of keeping our costs extremely low.
+So like we use, instead of paying Google eight bucks per user, have let's Let's We have
+resellers that we pay $2 per user per month, because you can imagine we have thousands and
+thousands of email inboxes, so pay, you know, and then, like, also with domains, we can pay,
+instead of paying $12 like most people do, we, you know, we use .code domains or .coms from,
+like, Porkbun or there's a site called tld-list.com, which actually tells you all the different domain
+registrars.
+And which ones are running the cheapest pricing. So, yeah, that's, a good site resource. But,
+yeah, I'm happy you're on with the right guy if you want to look at all the nerdy stuff.
+I did, you know, I'm happy to, like, kind of dive deep into that and show you a bunch of stuff like
+copy and then also the technical side of things.
+Allan Ramsay
+Cool. Walk me through your pricing, because I think that'll be the big sticking point for us.
+Jack Bricknell
+Yeah. Yeah, I get you. So, we do a three month trial. Yeah. It's $3,000 up front and $3,000 a
+month to run.
+Fairly straightforward.
+Allan Ramsay
+And how many emails do we get with something like that?
+Jack Bricknell
+$3,000 per day, and then there's 22 sending days in a month, typically. So that's around $66,000
+a month. And then if you want more, it scales up.
+Allan Ramsay
+Yeah. And we would have to provide you those lists of people?
+Jack Bricknell
+No. So you give us an idea of who your ICP is. We include all the lead list scraping. We
+subscribe to Apollo, ZoomInfo for financial stuff, PitchBook, all the databases, obviously
+because we've got dozens of clients.
+So it's included. What you can do is, as a supplemental thing, if you want to give us lists, we can
+run campaigns with those lists.
+But we have lead list scraping fully included in the service.
+Allan Ramsay
+Got it. How do you do it? How you make sure that you're not, like, contacting people that are,
+like, owned by an AE, like, a target account for an AE, or, like, a current client?
+Jack Bricknell
+So, usually, with those scenarios, we'll get two lists from you. need a DNC list, so anyone that
+has previously replied, like, don't contact us under your stuff, you give us that list.
+We add them into a block list, so no one gets the email again. And then, also, if you have a list
+of, like, current clients that you don't want us to contact, we just take that list and put it into that
+same block list.
+Allan Ramsay
+Got it. Okay, cool. So, let me ask you this question while I have you here. So, what I'm looking
+at is basically a $12,000 spend?
+Jack Bricknell
+Yes.
+Allan Ramsay
+Okay. Is this the site you're talking about, this one?
+SCREEN SHARING
+Allan started screen sharing
+Yep. can use that to verify emails, super straightforward.
+Allan Ramsay
+I can just, like, use it, and then, do you think this is real?
+Jack Bricknell
+time. Bye. Bye. Bye. We use the one-time service, so you can try the automated email
+verification, but what it is for us is we have like 10 million credits on there that we've bought
+through a bank.
+Yeah, I don't need 10 million credits on there.
+Allan Ramsay
+I think the most I have is like 20,000 contacts while we're doing this, so all of those contacts are
+actually getting emailed, right?
+It's only like the specific buyer persona. So I might do something like this and pay for it myself
+and see what it does.
+Yeah. Would you say you suggest that over something like Clay?
+Jack Bricknell
+Clay is great. Clay is, you know, you can do all sorts of AI personalization. We use it for some of
+our own stuff, but honestly, a lot of people overdo it.
+So like Well, I was talking more about like email verification because with Clay, you can like
+waterfall it, right?
+Allan Ramsay
+Where you do like 15-
+.
+Jack Bricknell
+We use MillionVerifier over Clay for email verification because it's cheaper volume-wise, way
+cheaper.
+Allan Ramsay
+Got it, okay. Yeah, and especially if it's looking at something like, I'd have to look at it, but... I
+have to sign up for an account to look at it, but anyways, all right, why MillionVerifier over
+somebody else?
+Jack Bricknell
+Yeah, MillionVerifier is very strict. That's just for the email verification side of things. Like, if
+you're paying a million, if you get a million credits for $389, like, debounce, never bounce, any of
+these, it's like $2,000.
+So the difference is, and it's very good quality. We use it. It works great. I'm trying to think of
+some other tools for you.
+Anyway, yeah, you know, you could definitely start using that. That would help your bounce
+rates, because if you have high bounce rates, you're going to burn.
+Allan Ramsay
+You do me a favor, will you send me a NOAA email? I think you were on the NOAA email, were
+you not, or were you?
+Jack Bricknell
+If I'm not, I can get on there. It's not a big deal. I'll get that over.
+Allan Ramsay
+Could you kind of give a high-level overview of what your diagnosis of our situation is? I think
+having someone else say it out loud, and he actually believes me, I think it's others, would help.
+I'm trying to create a narrative of like, yo, y'all, I'm doing what I can. Everyone thinks it's the
+copy, and I don't actually agree with that.
+Jack Bricknell
+Can I take a look at the copy?
+Allan Ramsay
+Yeah.
+Jack Bricknell
+Because I'm sure there's some optimizations, but I also would agree with you that if you're
+getting a 10% positive reply rate, that's not bad at all.
+Allan Ramsay
+Let me take a look.
+Jack Bricknell
+look. right.
+Allan Ramsay
+Here's one that we use, right? I've been using this as a copy.
+SCREEN SHARING
+Allan started screen sharing
+You are doing very well. The copy is not a problem. I go into so many corporate companies and
+they're sending paragraph-long, two-paragraph-long emails.
+You have it exactly right, which is to keep it really short. For this example, I don't like to use too
+many bulleted lists because it looks like a sales email.
+The other example you just showed me, we just helped this company save 600 hours a year on
+device management.
+Would you be interested in learning more? I would make some small changes to this, but failure
+here is not because of the copy, in my opinion.
+Allan Ramsay
+Okay. Cool.
+Jack Bricknell
+That's good to know. So you can tell your colleagues that We send 10 million cold emails a
+month, and the copy is, in my opinion, fine, yeah.
+Allan Ramsay
+And then I think in the email, so let's go back to pricing, let me pull it up again. Is there any
+guarantees, or walk me through that?
+Jack Bricknell
+As far as guarantees, we don't have a specific number of demos we're going to get you every
+month. Our goal usually with clients, something we're really good at is opening enterprise
+accounts.
+That's really our strength area. So we just try and get high quality meetings that end in revenue.
+ultimately our goal is, I can tell you, about 80% of the time, companies move forward past the
+three month trial.
+about 20% drop off, 80% of time. So we do the trial and, you Work with companies where you're
+selling something that's expensive enough for it to ROI, if we can get you 20 meetings with
+interested prospects over the course of the three months, you can close out a few deals and it
+ROIs from there.
+That's basically our goal.
+Allan Ramsay
+What else would you want to chat about? This is helpful, by the way.
+Jack Bricknell
+Yeah. I think what we would do probably is keep you running Apollo because you don't want to
+shut off everything internally.
+Just keep running that. I think there's definitely some optimizations we could make in terms of
+immediately you need to start verifying the emails regardless of that.
+Then also, we'll get you set up in one of the softwares we use, probably reachinbox.ai for
+sending emails. There's also instantly.ai if you were
+We do it internally. We use Reach Inbox because we've negotiated a bulk agreement to get a
+bunch of accounts.
+I think that there are small things with copy. One other thing is usually you cannot really get
+away with sending links and emails, even in the signature.
+So we don't send any links and emails. don't do any open tracking as well, besides the first
+week. And the reason for that is open tracking puts a piece of code into the email that reduces
+your deliverability and makes it more likely you land spam.
+That's another thing you might want to... If you realize now your open rates are fine, I would
+probably turn over...
+I don't even know if Apollo lets you do that, but if it does, you should do that. And yeah, what
+would you need from me?
+I know you want a recap email. What kind of things can I get you that can help you, I guess,
+move this forward?
+ACTION ITEM
+Send recap email to Noah and Allan detailing findings from call + why/how JB's company can
+help Kanji
+Uh... Yeah. My initial thought is that $12,000 is going be a hard justification for me. Yeah. You
+need to send an email to Noah and I of like, here's what I found while talking with y'all, and
+here's why I think we can do it and some kind of data behind it.
+Yep. We go from there, right? Yeah, I think that the $12,000 would be a hard justification, just
+being honest.
+But it's also one of those things that if you can prove it, I agree, it's one of those like we're giving
+you that money with no guarantee that it's going to work.
+Jack Bricknell
+Yeah, I get you. I mean, it's not like we've never implemented guarantees. It's just that it's hard
+to do a broad guarantee because we have an investment.
+You know what I mean? So I could probably spin a guarantee for you. We have like a client
+who's an investment bank who needs like three meetings a month for it to pay for, pay for itself a
+hundred times over, right?
+Yeah. Whereas with you guys, it's different. What would be a win for?
+Allan Ramsay
+I think it's the meeting set, right? We're confident that if you get us meetings, that we can close
+them.
+Jack Bricknell
+That's never been our issue. It's fine.
+Allan Ramsay
+And so I think that's how I would also talk about it is, I think that as long as it's not, and well, and
+I think the other guarantee would be like that you're going after Apple, like you found a way to
+know that these companies have Apple devices, because what we wouldn't want to have
+happen is you set 10 meetings with companies that are all Windows-specific?
+Jack Bricknell
+Yeah. What we usually do for that is, I actually spoke with a company that does something
+totally different, but they had the same thing where they just wanted to, a lot of software
+companies have like a specific thing they want to, a platform they want to kind of like target.
+What we would do for that is, we would put it in the copy that like, this is specifically for Apple
+using companies, and then you just filter that out, because it's, then we don't have don't have
+Limit as much on the on the data side. And yeah, I can put together a very robust based on like
+our standard KPIs, you know, this percent reply rate, this percent positive reply rate, here's how
+many demos we think we can land from each interest to reply.
+ACTION ITEM
+Create proposal w/ creative pricing (e.g. $5k upfront + $800/meeting), meeting guarantees
+(8-10/mo for 500-1500 employee companies), math/data to support ROI
+I can put that together. What, in terms of the number of meetings set, what is kind of a win for
+12,000?
+Is there like a pay per meeting mark? Is there, are certain meetings with larger companies worth
+more than others?
+Allan Ramsay
+What are the meetings like there? The, the larger the account, the better off we are. The only
+thing I can say is that we don't want to get into like the true enterprise, say like a LinkedIn, that's
+not, we're not going to win those deals.
+What I'm looking for is companies and like 500 to 1500 is where we're trying to get to as a
+company, like on a consistent basis.
+And so if you can book meetings in that. That would be huge. And with Apple devices. So if you
+wanted to come up with some kind of pay per meeting model, I don't think we would be against
+it.
+And maybe you're saying, hey, this is going to cost you a little bit more. But like, get creative. I
+think that our team is very open to creativity instead of like the normal list pricing of things.
+Jack Bricknell
+Yeah.
+Allan Ramsay
+So yeah, those are just kind of a couple of my thoughts.
+Jack Bricknell
+Yeah, we just did that for a company. We just did, I think it was 5k up front for the three months,
+and then it was 800 per meeting.
+And then it like, I think we could probably do something like that, if that would be more palatable
+for you.
+Allan Ramsay
+I think so. So yeah, like, tell, like, come up with your best shot, like email Noah and I. And we,
+I'm in, him and I are in meetings next week, face to face, so we can have the conversation.
+You know, the nice thing here is that he was the one who passed this off to me. Yeah. I think
+we're trying to learn how to do it, and so that's where it would be helpful.
+Jack Bricknell
+Yeah, there's definitely a lot on that side that we could help with, too. Okay, I can get that to you.
+Is there like a number of meetings per month that you think would be a good goal? Eight to ten.
+I think eight to ten meetings per month in that 500 to 1500 employee range, potentially
+expanding that a little bit more.
+I think that's totally doable, and I can put together some math to show the numbers behind that.
+Allan Ramsay
+Yeah, and my guy, Noah, is a big math guy, so if you want to show that, I think that would be
+helpful.
+Jack Bricknell
+Awesome. All right, I'll send that over, and then... Perfect. I have to jump onto my next one, but
+is there...
+When are you meeting with Noah?
+ACTION ITEM
+Schedule follow-up call w/ Allan for Wed after next @ 8:30am
+Next week, but can you reach out? So like next week, we're in... And we're like in meetings all
+week, so let's catch up on the week, like a week after that.
+So if you want to just, this is usually a good time for me, 8.30, so if you want to just plop
+something on there, like the Wednesday after or next at 8.30, that will work for me.
+Jack Bricknell
+Perfect. I will do that. Alrighty. Nice talking to you.
+Allan Ramsay
+Nice to meet you, man.
+Jack Bricknell
+Have a good day. You too.
+Allan Ramsay
+Bye-bye. Bye-bye.
+2: "This meeting is being recorded.
+Jack Bricknell
+Hey there. How are you?
+Jake
+Doing well, man. How are you doing?
+Jack Bricknell
+Good. Good. Alrighty. I've got William on the calendar.
+Jake
+Sorry. I run a crypto company too. So I guess I created an alias and my alias is Jake. My name's
+Will.
+Jack Bricknell
+Okay, cool.
+Jake
+Alright, Will.
+Jack Bricknell
+I just wasn't sure what should I call him. Dude, I did the same thing. I got an email that's Jack
+Davis instead of Jack Bricknell.
+Jake
+Yeah. You gotta know when to use it.
+Jack Bricknell
+Yeah, exactly. You said you run a crypto company.
+Jake
+What other companies do you run? So the crypto company pays the bills and all that stuff. But
+then I have a bunch of, well, for...
+get? It's Yeah. Let's see. I have a kind of a health and wellness business that is familiar with
+cold plunges, I assume.
+Yeah. So like we go to people's homes and we build what's called a sweat deck where it's like a
+sauna, cold plunge, outdoor shower, the deck, all that stuff.
+It's not like D to C. It's like actually like the white space in between. Sorry, my dog's chewing
+twinkles.
+Sorry, stop. And so that's one of the companies that's that's I think where I wanted to focus this.
+But then we have launching two different apps, one for property management and then one for
+weddings.
+Those should be launching the next two to three weeks. So I want to do this for that as well.
+But like I'm I'm a growth marketer. I sold a marketing company in 2014. And a lot of like a lot of
+my learnings besides paid traffic was outbounds, getting people, you know, SMS blasts like.
+Scraping lists, know, doing all, like, in the trenches stuff that you do, and I used to own some
+e-com companies, and I would set up flows in Klaviyo or ActiveCampaign and stuff like that, but
+now that I'm coming full circle, I'm like, damn, I don't have any outbound strategy for my
+Sweatdex company.
+It's literally all through paid, so it's, like, warm paid leads that come in, that go through my
+funnel, set up for a call, and they're, like, ready to go once they get on a call, but, like, dude, I'm
+not doing any out of a process, especially with AI now, you know, there's a million ways to do
+outbound, and so I was like, instead of me trying to kind of set up NAN and use all these
+different tools, let me work with somebody that, you know, does And let's have an expert get in
+there and chop it up, because I'm sure I could do it, but I just don't want to.
+I don't want to spend all the time doing it by myself and then, you know what I mean?
+Jack Bricknell
+Yeah, that makes total sense. I mean, you sold a marketing company, so obviously you
+understand a little bit about marketing, but yeah, that makes total sense.
+What's sort of the target audience for Sweat Decks?
+Jake
+So Sweat Decks is like, you could start with the required audience, which is like you have to be
+a homeowner, so that's one thing.
+The ticket size is between $20K and $60K, basically, for these builds, so you've got to have
+some money. But you could do people that own Airbnbs, you could do gym owners, kind of like
+anybody who's an executive at a company.
+I have a brief, because I was on Upwork, like, hey, trying to get the data. Because back in the
+day when I was getting data, I would go to, like, Data Depot or Info USA.
+you the mics well watching, great dude love I've o энd We cheap as . And so, um, now it's not,
+now I like went to like experience.
+was like, this isn't, this isn't the same way. So I was trying to figure out how to get the leads list
+and then clean it.
+Um, but yeah, basically any business owners in health and wellness is like where my target
+was. I will say like Airbnb owners or, um, those are prime.
+Like they, this is like such a value add for them. Like that's all about it. So yeah, those are kind
+of the targets, but like Jim owners like, uh, CrossFit people.
+Yeah. People that have a house and, and, and, and we're only in certain cities right now. So like
+Houston, Texas, Austin, Texas, uh, Los Angeles, all parts of Los Angeles.
+Um, and then New England, Massachusetts area. Uh, and then Utah. I have, I have all the zip
+codes and stuff.
+Jack Bricknell
+Okay. All right. Um, gotcha. All right. So the one thing that I have in the, So D2C cold email is
+very difficult because if you try to send the personal emails, so like at gmail.com or one of them,
+you'll burn your infrastructure super quick.
+So the approach is, I like how you mentioned.
+Jake
+I'm ordering up emails right now as well.
+Jack Bricknell
+Yeah. Okay, cool. Yeah, you want to be careful with that. So you only want to send to B2B, so
+like at company.com emails.
+But you can still do that by just grabbing executives at health and wellness companies within
+those areas. And maybe, you know, honestly, with this, I'd probably just go for a higher volume
+campaign where you hit general executives as well.
+And then also anyone who's in a senior position at any kind of company with like the keyword
+short term rental or any of that kind of stuff to get those Airbnb people.
+Because I have seen this a lot, like. When I see these Airbnb guru guys, they always have some
+kind of thing like, I'm looking at your website, thing like this, like on the property, and you can
+charge a lot more because you have it.
+Jake
+Yeah, exactly. So not even charge a lot more. What's happened in the Airbnb world is like, just
+having a house to rent is not doing, it doesn't matter.
+It's like the amenities now is like the whole thing.
+Jack Bricknell
+Yep. Yep. Okay. Got you. All right. Massachusetts, New England. Cool. And you said you're,
+you're warming up emails now.
+Jake
+Yeah. So I'm using, I had a guy that I'm working with. He's trying, he's going to set the flows and
+like NAN and stuff, but whether, whether I like, whether we do it or not, you know, it's, it's, I still
+want to, I still want to talk to someone like yourself because he was more of like a flows guy.
+And I'm like, yeah, let's, I'm using smart lead.ai to warm up leads.
+Jack Bricknell
+Yeah.
+Jake
+Yeah. Thank Yep. Yeah.
+Jack Bricknell
+Okay. Cool. Do you know how many inboxes you have?
+Jake
+I think I've got five or six. One extra for each of my sales guys. Okay. But I can warm up to 50.
+Jack Bricknell
+I don't care. Yeah, yeah. The thing is with five or six inboxes, what are the domains on them?
+Jake
+Is it like at sweatdex.com? Yeah.
+Jack Bricknell
+Yeah. Okay. All right. You're going to want to be super, super careful with this. So here's the
+approach. I'll tell you what we do.
+Yeah. I'm going to save your right now. So if I have a company, like a client, let's say, we have
+one, Katie and Talent.
+I was just doing their setup yesterday. We don't send emails from katientalent.com because
+what will happen is if you do that, you'll burn your domain reputation of your main domain, which
+means.
+You're Thank Anytime you start sending from sweatdex.com, you're going to have issues
+because domains always burn. It's just a matter of how long it takes until they burn.
+We can do a lot of things to make it take longer, but it will always happen. That's why we never
+use your main domain because then you're going to be going to spam on your main domain.
+Companies come to me and they're like, even our internal emails are going to spam. It's a huge
+problem. So what you do instead is you go buy, go sweatdex.com or sweatdexco.com.
+You buy like, imagine you get like 50 of those and they're lookalike domains is what you call
+them. And that basically means that they can redirect to sweatdex.com when people type it in.
+But if they burn, it doesn't matter. You just buy new domains and it's not going to cause a big
+issue for you.
+Second reason that's important is because you have five, six inboxes, a safe amount to see.
+And per inbox per day is like 15.
+So if you have five inboxes, you can send like 75 emails a day, which is like nothing. You want
+to send like this, for instance, the smallest setup I do for clients is 2000 emails a day.
+That's the smallest. And the way that looks is if we get you 50 domains, you can put three
+inboxes safely per domain.
+It's like the rule with the look like domain setup. You can have 150 inboxes, which means you
+can send 15 per inbox per day.
+150 times 15 is 2000 to 50. And that's a pretty, pretty standard setup. So like, yeah, don't send
+with those sweat decks.com things.
+Like it's not going to immediately screw you. You'll be fine for like a couple months probably. And
+even you might, it might even not be a huge problem because.
+We're only sending 75 emails a day. If your whole organization is sending more than that, then
+it's not – like if that would only make up like 10% of your whole organization sending.
+Like if your organization was sending 750 emails a day and you're only sending 75 that are
+marketing, it wouldn't be a problem.
+But I would doubt that you're sending that many. So just save yourself the potential headache
+and don't send from those.
+I promise you it's not worth.
+Jake
+And you're going to want do the low. Can you set up SMTP directly from Smartlead so I don't
+have to set up like Google ?
+Jack Bricknell
+I have a guy in like Pakistan that does all the DNS, all the setup, all that crap. I don't even look
+at it.
+Like I used – I remember I used to do that like manually. It was the biggest pain in the ever.
+But now I have a guy and like it's like excellent – I don't know, a few bucks a domain and I just
+have him do everything.
+Jake
+So yeah.
+Jack Bricknell
+Yeah. Yeah. Yeah. Okay, cool. So that's good. You won't burn your mind away now. Perfect.
+Smartlead is good as well.
+The other ones are Instantly. Instantly is performing slightly better than Smartlead, but honestly,
+if you're already on Smartlead, there's no point in switching.
+What else are you doing? Talk to me a bit more about, like, that's your setup.
+Jake
+Yeah, that's basically it. Like, I have the setup for where I would warm up and where I would
+send.
+I have leads lists that I got. I haven't looked at them. I don't know if they're good. Basically,
+everything I would do, I would basically upload it to, like, Never Bounce or something to, like,
+confirm the emails are legit or not.
+But I don't really have a lead list I trust at all. So, I mean, I would be open if you're, if you have
+the keys to the castle, I'll be working with you on that.
+And then, like, I haven't even set up the flows. Or the other one. I don't know. I'm very open to
+that, too.
+I'm pretty much looking to be like, hey, pull someone in with the experience, hand it off. And by
+the way, this is company number one.
+Company number two, and three, I think so much easier. So when we get to the property
+management and wedding app, great.
+We buy a list of wedding planners or a registry of brides.
+Jack Bricknell
+Yep.
+Jake
+Property managers, pretty straightforward. Buy a list of property managers. Boom. And so much
+easier in terms of prospecting. yeah, I would want to use someone like yourself to do all of it.
+Just literally hand it off, set it up, turn it on.
+Jack Bricknell
+Yeah. Yeah. Yeah. Never Bounce, by the way, you should try Millian Verifier. Never Bounce is
+one I like the big play.
+And they sell to corporate companies and they're like 10 times the price, but it's the same email
+verification cost.
+So it's nothing. So like use, use a million verifier in the future for that. But, um, yeah. Where'd
+you source the least lead lists from?
+Jake
+you know, uh, I just some random dude off of, uh, Upwork. Basically you sent me, you just sent
+me gigabytes worth.
+Cause I was like, go yourself because he was like trying to like charge me 2k.
+Jack Bricknell
+was like, no, I'm not doing stuff.
+Jake
+Your leads are good. So they just uploaded on each thing. I downloaded it all. I haven't even, I
+mean, I opened them and saw there's a ton of leads, but yeah, I'm like, put another post out for
+like a Python developer to come and merge them all into one.
+But I, at the end of the day, am I even going to use these or should I just talk to somebody like
+you?
+Jack Bricknell
+Yeah. Yeah. I mean, I'll take a look at them just to, just to see. mean, you know, might as well,
+but, um, yeah, we scraped leads from, like,
+Like Apollo, LinkedIn, all that kind of stuff, and you know, as you can imagine.
+Jake
+He sent me 13 gigs, or sorry, 13, 14, 16 gigs of Apollo leads. So I've got 500 million leads from
+Apollo.
+Jack Bricknell
+Nice. Yeah, that's interesting because they only have 300 at a time usually. That's super
+interesting. We'll take a look at it.
+He just gave you the whole Apollo database. My only concern is that might be that we have this
+one leak that's like a couple years old, and if you put it into a verifier, tells you it's like 80%
+invalid, but hopefully it's not.
+mean, that might be useful data. I could compare it with the Apollo DB that we downloaded.
+Anyway, cool. I don't think the leads will be a problem.
+In the worst case, we can just scrape new stuff. Interesting. All right. And, um, you're good. I'm
+leads right now from ads and that's like working well, what's, you want to do outbound?
+What's like kind of a goal for outbound in terms of, you want to basically meetings with people
+who would be interested in having this set up in their thing and then you can pitch them and
+eventually you can do it for the app.
+But what are you, what, like how many meetings are you getting every month from ads and then
+what would be a goal for, for outbound?
+Jake
+Yeah, I mean, we get, we'll see, I don't, I got to look at my daily spend. think we're spending like
+200, 250 a day on ads.
+We get two to four meetings per day. I don't know our total lead count. think lead count is around
+like eight or 10 leads per day.
+And then we convert like 20% of that into meetings. And it's a flow, right? Like, so it's like they,
+they put in the opt-in form and then after they click submit, the opt-in form goes to a calendar
+link, right?
+Okay. Well, Yeah. You. And, yeah, and, I mean, a lot, like, we have so much creative. I mean,
+you look at this stuff, you kind of know right away, like, if you're going to get this, you know.
+It's pretty badass. And so I don't know what the success should look like from an outbound cold
+campaign. I feel like we're going to find a certain user type who's like, I've been looking for this.
+And I think that might be in the real estate sector or the gym owner kind of, or the gym owner
+kind of, like, persona.
+So, yeah, so my goals, I don't know, like, even if we did it, and if it was going off, and we were
+getting an extra two jobs a month from this, I'd be like, win to me.
+Jack Bricknell
+Like, what is it to get two jobs, like, out of, how many meetings is two jobs?
+Jake
+So that's a good question. I, traditionally, with most of my companies, Good news I would know.
+I think I'd have to go look at the data.
+I don't spend a lot of time in this business, just because like, I come in, I help with the marketing
+and then like I let kind of my CEO run it.
+But if we're doing what, 10 leads a day to convert, maybe out of 20 leads, convert one. Quick
+math, I think we do like, maybe eight projects a month.
+Jack Bricknell
+All right, let me, so if you're getting like, let's say you're getting two meetings per day, 60
+meetings a month, let's call it, then that leads to eight projects.
+So it's like, whatever the math is on that, would that, so it'd be about like 13% of meetings.
+Jake
+And that's pretty good, actually, and in a job for something like this, I think. Yeah, it's pretty good
+because it's inbound, right?
+So like when they see the ad, and they come to the landing page, I used Build funnels and do
+copywriting and all that stuff.
+So they see the ad and they come to the landing page. mean, there's no convincing. There's no
+selling. either know this is going be expensive.
+You've been wanting this. So it's really like a salesperson just comes to you, talks to you through
+what it is, all the different costs.
+But you don't have to get sold on it. And, by the way, I just sent you all the lead lists that this
+dude sent.
+Jack Bricknell
+Oh, okay.
+Jake
+Cool. I don't know.
+Jack Bricknell
+I hope they still work. yeah. I see. So I'll just paste this. What'd you pay this guy for these?
+Jake
+I haven't even paid him yet. Oh, nice. paid 500 bucks. I paid like a thousand and I was like, go .
+Cause I already did the job. I had put up five, bucks and he was like a thousand. like, go
+yourself.
+So I did a refund and then he just sent me all the links. Like, yeah, please fix my.
+Jack Bricknell
+Yeah. These guys are desperate on Upwork and Fiverr to not get banned and bad reviews and
+what.
+Jake
+It's also like, he's like, he's got data that's not, you know, doesn't cost anything to take 500
+bucks or not.
+Jack Bricknell
+Like, yeah. Um, okay. Here's what I'll say. I'll give you my honest, super honest opinion is, um,
+when it comes to stuff like, like 13% of meetings ending in a job that you're right, that's like
+higher than it's usually going to be because this is people who like, they see the ad, they know
+exactly what it is.
+Whereas with an email, we do something that's like two or three sentences. And it's like, like, we
+can't even put images in the email.
+This is like where it's like the whole cell of the image. Like, so honestly, I don't, the value add, I
+think with this business, with, with email, um, is I think the potential to work with like, Oh, go out
+to a guy who owns 20 short form.
+Um, short term rentals. Um. Um. Do one, like, get him interested, do one job for him, and then
+have plenty jobs come from that.
+That's where I think email would be a value add, because you're not going to reach that guy as
+much with an ad as you can directly emailing a guy who, you know, runs a short, you know,
+owns 20 properties or like this, that kind of thing.
+So, like, that's, I think, the value add with email, because I'll be very honest with you. Like, even
+getting 20 meetings a month is not easy with email, and it would not be easy targeting certain
+geographic areas and certain executives in that geographic area, and then persuading them,
+like, it is kind of a demand capture thing.
+Like, if you're already thinking about getting a, one of these things in your backyard, then that's
+where this would come in.
+Like, just as an email guy, being very realistic, I don't think the... when you're they're sure they're
+So there's a huge value add in like trying to sell this by cold email unless you're also – like we
+could try it out, but I really couldn't guarantee you any results because I have no idea whether it
+will work or not.
+The value add, I think, would be going to the B2B guys, like really B2B, like a guy who owns a
+short-term rental company because you score even one of those.
+That relationship will make you – if you're – what was it like, I don't know, $20,000 a job or
+$50,000 a job, like you get 10 jobs from that that pays for this many times.
+Jake
+Dude, I'm game. I'd rather go after – I'd rather not go after like the homeowners. I'd rather go
+after – like that's the thing.
+Like our best projects are with people that are like, hey, I'm building a retreat. Like they have a
+retreat site or something like that or like the
+They're short-term rental people or like we've even done some like small hotels. You know what
+I mean? So like those, yeah, like even gyms, we've had some gyms reach out to us.
+Jack Bricknell
+Gyms. Okay. So I'm just thinking it out live. It's like, honestly, like if you were just going to do this
+for homeowners, I would just tell you like, yeah, I could probably persuade you and take your
+money, but I don't think it would work.
+So I wouldn't, I wouldn't want to do it. But for this, for B2B, I can see it working, especially if we
+took a local approach.
+Hey, um, we're building, uh, you know, cold plunges or however we want to describe it, um, in
+this area, um, you know, thought, you know, might, this might be helpful or useful for you.
+Would you just like to see how one looks? Then you get the interest there. And, and then you're
+able to, once someone replies.
+You can send all the links you want. You can send whatever you want. So then you go and you
+say, you know, here's our website.
+Here's an example project we did in Houston, in Los Angeles, whatever, or for a gym. You know,
+you may be interested in, you know, 15-minute conversation to see if this would be a fit for you.
+That, I think, could work.
+Jake
+Yeah, I like that. Like, hey, hey, did you see the projects? We finished over in Name This
+Neighborhood That Everybody Knows.
+Like, wait, who is this?
+Jack Bricknell
+What project?
+Jake
+Boom. Like, now the response, you're like, oh, this one.
+Jack Bricknell
+Like, then there's a picture.
+Jake
+Oh, this looks so cool.
+Jack Bricknell
+Who are you guys? Yeah. Local approach works really well because then you don't come off as
+just a spammy emailer guy.
+You come off as like, oh, you know, this is a local contractor in the area, whatever.
+Jake
+And what we could do is... We could plug the pixel. We could set up landers for the flow. I did
+this a long time ago.
+So let's say this project here, they go, oh, the project here, they click on the link, they go, it's like
+this beautiful, blah, blah, blah.
+I can set up a pixel on that page and just hammer them with retargeting for all that.
+Jack Bricknell
+Yeah, because you know those are high value prospects. Okay, I like it. think it's also like with
+the same infrastructure set up, like I said, like 2,000 emails a day or even maybe we do
+something smaller here, we could try out the direct to executives in those areas and just let's try
+because it wouldn't cost anything.
+Once you set up the email infrastructure, it doesn't cost extra to send up to your capacity, if that
+makes sense.
+So like it might as well be like, all right, bucket, let's try that. I just don't have this huge optimism
+about that element being really fruitful, but there's no harm in trying that.
+So I think that could work. I'd probably set up a new instantly. Probably our team would write all
+the flows.
+I could have it. So there's like two potential options. The first is like my team kind of manages
+everything, basically leads, writing the flows, inbox management when the leads come in and
+then booking the appointments for you.
+The second option would be more of a consulting kind of gig. And so that would be we bill you
+once to set everything up for you and then you just keep.
+Me on retainer to make sure things are running well, you would do the inbox management and
+we would get on, you know, twice a month to make new campaigns and talk about, you know,
+how are the other ones performing from that end?
+It's, it's like less work from my end. And obviously, so that's a kind of cheaper option, but it
+sounds like, I don't know, which, which would probably be more appealing for you initially.
+Jake
+So like, I know myself pretty well and I'm pulled a thousand directions. So like initially I'd rather
+have like done for you, like you, you're, you go and see how it goes in their future.
+Is there an opportunity for me to bring it in house on it? Maybe, but like, I'm at the state where I
+would just like bring in the expert place, you know, cause I, dude, I had, I had, you I have my
+own just sidebar.
+I had my own like paid traffic team I've been working with for a long time. They're okay. But it
+was like, just get the job done.
+And I wrote the initial funnels, a lot of stuff. I've had the same funnels since the beginning of the
+business for like 18 months.
+And I brought a guy on six months ago building all these crazy things. And then I got pulled into
+something and I never finished it with him.
+And I was like, all right, like if I could just give somebody the full baton to go do what they've got,
+I'm going to drop off and it's not going to get done.
+So, yeah.
+Jack Bricknell
+No, I mean, that's a very – like you clearly know yourself. Well, that's like – yeah, I can see why
+you've been successful in these different business ventures.
+You know what you're good at. It's who, not how.
+Jake
+When I mentor him, he's like, dude, you don't need to know how to do it. Just find the right
+person to do it and just get out of the way.
+Jack Bricknell
+like, all right. That's – Okay.
+Jake
+Enough of it's dangerous, but yeah.
+Jack Bricknell
+Cool. All right. But of what I've described so far, does it sound like this is something you want to
+do?
+Jake
+Yeah, for sure. You know, I want to give it a shot and see how it goes.
+Jack Bricknell
+is it –
+Jake
+If it makes sense, and it makes sense financially and all the above, like, then I know that I have
+somebody that I can use for the other things.
+So, like, the other thing, I have a TikTok approach for this business and the other stuff, too. So
+I've got, like, 20 TikToks now, but I'll have 100 soon, which, like, I have a whole team in content,
+then different phones, on different IP addresses.
+Yeah, wow, you're a real marketer, man. I love it. That's awesome. Well, dude, I watched these
+little kids right out of college make, like, 50K MRR with their stupid app, and they have TikTok
+farms.
+And I was like, oh, I can do that. So I started trying to talk around TikTok farms, found a guy who
+has, like, 65 accounts, and it was way more intricate than I could imagine.
+Like, you can't have everything on one phone. You can't have everything on one computer with
+virtual phones. It has to be really nice.
+So, um, but , if you get it, what all of sudden a hundred million views.
+Jack Bricknell
+Yeah.
+Jake
+Yeah.
+Jack Bricknell
+I've seen those contractors. You do the before and after those kinds of videos are always really
+high performing. Um, but yeah, that's cool.
+All right. Well, let me get to the pricing. Uh, and then you can make a decision on, on what
+makes sense.
+So for the done for you, it would be three K set everything up. Um, and then three K a month to
+run it.
+We typically do a three month trial. So you're not locked in for a very long period of time. Um,
+and that's typically how we would set it up.
+That covers pretty much everything being handled for you.
+Jake
+Uh, if you could lower the setup fee, I'm down for three K a month consecutively.
+Jack Bricknell
+Okay. Um, I'm just trying to think about if we did, just give me one sec. Um, we did two jobs and
+email.
+I could probably do 2,200 for setup, and the reason that's such a random number is because
+that is kind of like coming down on what the actual hard cost would be, but if that works for We
+can get it done.
+ACTION ITEM
+Initiate 2-week email warm-up process for SweatDex campaign
+How quickly would you guys be able to set? I mean, I know you have to warm up.
+ACTION ITEM
+Task team to start lead list polling & campaign messaging for SweatDex
+Yeah, the warm up is two weeks, but what we do is I'll get that warm up done in a business day
+so that we can get the clock started.
+And then while that two weeks is happening, we're doing all the lead list polling, all the
+campaign messaging, so that right after that two weeks, it's good to go.
+So it's about 15 days all in.
+Jake
+Cool. Expanding Expanding. in Territories, obviously that's not going to happen anytime soon,
+but I imagine that's not going to – I mean, it kind of shouldn't increase the price because it's just
+a new territory.
+Jack Bricknell
+It's Same cost to do it. What you're buying essentially is the system and the people. We can do
+new campaigns, all that stuff, no additional cost.
+Jake
+Yeah, it would just be grabbing new leads, but that's – I assume you have guys.
+ACTION ITEM
+Send proposal via PandaDoc to Jake
+Yeah, we cover the cost of that. You don't have to pay for leads. Yeah.
+ACTION ITEM
+Send Stripe payment links to Jake for setup fee and monthly fee
+All right. We'll do it.
+Jack Bricknell
+Awesome. All right. Let me send you a proposal really quick. That'll take me, I don't know, a
+couple hours, and then I'll just send you – is it cool with you if we – if I collect a little deposit from
+you here?
+ACTION ITEM
+Pay $500 deposit via provided Stripe link
+Yeah. How much are thinking? Like 500 bucks. Yeah, that's fine.
+Jake
+I know the game.
+Jack Bricknell
+Yeah. Yeah. I figured you got to lock them in. Yeah, you got to make sure they're committed. you
+don't, you know, have the back and forth.
+Exactly. Exactly. Alrighty. Cool. Alrighty. I'm just going to send you this link in the, in the zoom
+chat. Great.
+Cool. Awesome. And then let me just get, make sure I get this in my notes as any of that
+proposal.
+I'll send that over by email later today. Okay. Thank Thank you. Thank you. Thank Thank you. Is
+it working for you?
+Jake
+Yeah.
+Jack Bricknell
+Yeah.
+Jake
+Okay.
+Jack Bricknell
+Perfect.
+Jake
+There you go. Good to go.
+Jack Bricknell
+Good to go? Yep. Awesome. Okay. Cool. I'm going to email you over to the proposal. I'll just
+send it by PandaDoc.
+And… Um. I And then I'll send you the Stripe links. And if you have any questions, concerns,
+anything like that, let me know.
+Once everything's paid, we'll set up a follow up. We can even set up a follow up now. What's
+your what's your availability like?
+Let's say Monday. What's it like this week?
+Jake
+I'm pretty open. mean, I just have meetings around 10. What are you?
+Jack Bricknell
+What area are you in? Eastern.
+Jake
+Eastern time. I'm one hour behind. Okay. At 10.30 my times, I have calls. But other than that, I
+don't have any calls at all.
+Jack Bricknell
+Cool. On Wednesday. That's 11.30. Yeah, 11.30. Wednesday, 1 p.m. to 2 p.m. Eastern. So that
+would be 12 to 1 your time.
+We could set up a quick follow up. All righty. Awesome. Yeah. We can just go over anything that
+you can start.
+ACTION ITEM
+Create Slack workspace, invite Jake
+Go ahead. Do you like, do you do Slack or should it like, what's the best?
+Jack Bricknell
+Slack? Okay, cool.
+Jake
+I'll invite you to Slack. You invite me.
+Jack Bricknell
+Perfect. Yeah. Yep. Wednesday at 1 p.m. my time. All right. I'm going to send you that invite
+right now.
+All righty. Sounds good.
+Jake
+Let's do it, man.
+Jack Bricknell
+I'm pumped. Perfect. I think we'll have some good success here. I will get that proposal to you
+and we can move from there.
+Jake
+Awesome, brother.
+Jack Bricknell
+Appreciate it, my man. All righty. Talk to you soon.
+"
+3: "This meeting is being recorded. Hey, Chris.
+Chris Wicker
+Hi there, how are you?
+Jack Bricknell
+Well, how are you?
+Chris Wicker
+Winding down on a Friday.
+Jack Bricknell
+We both. Chris, I think, did you connect with us through an email?
+Chris Wicker
+Yes, I got an email from you. It's been something recently on the top of my list. And so I took a
+look at your site and thought it would at be worth a conversation.
+See if it matches, at least for further conversation, matches what I'm looking for.
+Jack Bricknell
+For sure. What are you looking for?
+Chris Wicker
+I need to supplement my outbound strategy. I recently went down a rep, plus the team's
+struggling a little bit.
+When I came to the organization in August, and then we took an investment a year ago this
+month, this company had never done any outbound before.
+So I had to build basically up the tools and everything from scratch, and it's proven to take a
+little bit longer than what we anticipated from an outbound perspective.
+And so I'm looking for just a bit of additional driving of qualified leads from an outbound cold
+perspective for the team.
+Jack Bricknell
+Got it. Okay. What are you currently doing right now? What do you have set up?
+Chris Wicker
+We have ZoomInfo, we have LinkedIn Sales Navigator, we have our own database, and then
+obviously off of that, we have HubSpot with website intents and those types of things, and the
+team follows those and will act accordingly, but it's, as you know, outbound is really, really hard.
+And so if we can supplement at a grander scale, while we continue to do our portion of a total
+pipeline build.
+time, called C. C. C. You Outside of inbound marketing, I wanted to look at it.
+Jack Bricknell
+Gotcha. Okay, great. Tell me a bit about your ICP, who are trying to reach with these outbound?
+Chris Wicker
+So we have a very unique value proposition in our space. We have the ability to deploy our
+solution in multiple ways and multiple secure ways, one of those being self-hosted or hosted in
+a private cloud, so your typical on-premise hosted environment.
+the same exact product. There's one other company that does that. Everybody else is either
+totally in the cloud or has gone to the cloud or pushing people to the cloud.
+But there are certain organizations, healthcare, fintech, insurance, banking, even a government
+at some level, even though I don't want a partner like this to go after a government business
+force, they don't want their data leaving.
+They may have it in the cloud. I would host it in a private cloud scenario in AWS or Azure or
+whatever the case may be.
+So they don't necessarily host it on their own servers, but they want that data protected and not
+to go out to a public cloud.
+And then we obviously have a traditional, same solution in our cloud on AWS in the relevant
+territory. I'm only looking for the U.S., by the way, at least initially.
+So our unique ICP is typically IT or HR, sometimes facilities. HR has been a very interesting one
+for us because they're typically, they don't think of a help desk ticketing system as being
+something that would solve their communication pathways to their employees.
+So typically they're using, still using a shared inbox, going through email. There's no
+assignment, there's no, they have to stay on top of those shared emails.
+There's no reassignment based upon people being out. They just have to monitor it. So that's
+been a very interesting
+Interesting use case for us. And then obviously on the IT side, that can either be an external or
+internal use case.
+internally, IT support where, you know, I need a new password, my computer's not working,
+printer on level floor four is not working, whatever the case may be from an internal IT
+perspective.
+And then external, which is less of our clients today, but is a customer support engagement. So
+you have a support organization within a company supporting their external customers, and they
+want to be able to have tickets and communicate with those customers via a ticketing system,
+whether it be hosted or online through the cloud.
+So it's really those three use cases from an individual ICT standpoint. It's anybody who
+obviously has budget, but also has people reporting to them that are engaging with either
+internal employees or external customers, and then depending on the department.
+zam 1972. And the You know, what, what, what they're communicating to them about. Got it.
+Typically that's the director level or higher.
+Jack Bricknell
+Yeah. Okay. Gotcha. So director level or higher, um, HR, IT, and they have different use cases,
+uh, depending on, okay.
+Gotcha. What, what sorts of companies, I mean, is it mostly, I see a lot of, uh, enterprise sort of
+case studies on your site.
+Is that, uh, the typical target?
+Chris Wicker
+I'll be very transparent with you. That's a bit of a marketing spin. Yeah. For example, Apple is
+one of our customers, but it's a team of 15 people sitting in Austin, Texas.
+It's not all of Apple, right? Um, a lot of our larger, we, we, our largest customer today is about
+500,000 a year in ARR.
+Our average sale price, um, is, is about 10, 10 and a half thousand ARR. Um, and then we
+obviously get the transactional business where we're more down in the 3,600, 3,000 range.
+Um. It just depends. I'm really looking more to go up market with something like this. My
+marketing team drives plenty of the smaller stuff because it's just, that's the way they buy.
+So, you know, see a paid search ad or they'll read a piece of content or they'll just go to
+organically search and see different options, whatever the case may be.
+So I'm really looking for, you know, opportunities that would probably be 20 to $20,000 to
+$25,000 or bigger ARR.
+Jack Bricknell
+Yep. What do those look like for you in terms of the types of companies? mean, we do a lot.
+Our biggest, I think, in my opinion, our biggest strength with cold email is that you can reach
+those kinds of people that, you know, they're not really scrolling around on social media.
+You don't typically get enterprise accounts through like a paid ad as much as you can directly
+targeting them with an email.
+Chris Wicker
+But tell me. Is your solution purely email?
+Jack Bricknell
+There's no. Okay. So, so we do. You know, there's virtue to doing omni-channel, you know,
+email, LinkedIn, but the thing with email is as it's gotten a lot more difficult over time with
+Outlook and Google becoming stricter on spam policies and all this kind of stuff, we try to be,
+you know, rather than being a jack of all trades and a master of none, we focus on email and
+specifically targeting more enterprise clients through email.
+So, for instance, one of our recent clients, company called Predictive Safety, and they do safety
+solutions, they only want companies that are very large and they want heads of HR, heads of
+people responsible for safety, and we just got them into Ryanair, Avianca Airlines, and I'm
+forgetting now, but another big one.
+So we got them five of the 10 biggest airlines just booked on meetings with. Thank Either the
+chief of human resources or the head of corporate safety.
+So they are ICP. But that's what we're really good at, essentially, with email. So I'm trying to
+think about when you say you'd like accounts that are 20,000 a year for you, for example, what
+do those look like usually?
+Chris Wicker
+So like on an HR use case, you could have a 10,000 employee company that's supported by 25
+HR people.
+So that would really be a 25 user, 25, HR, we call them users, we'll call them agents.
+Jack Bricknell
+So 25 user license deal.
+Chris Wicker
+So that would roughly, you know, if was 25 on our professional package, so 25 times 59 times
+12, that's a $17,000 deal.
+Jack Bricknell
+Got it.
+Chris Wicker
+Plus any professional services that we may, we may, we, we, we may tack on to that depending
+on onboarding needs, support, those types of things.
+Not support. Not from a support day-to-day, but just onboarding, getting them up to speed.
+Yeah. If that same 25 went with our enterprise version, for example, that would be a $30,000
+deal.
+Give us $59.99 per license, right? But if you look at a non-HR use case, you could have a
+support organization that's 500 employees, but for whatever their use case is, they might need
+100 licenses.
+Jack Bricknell
+Yeah.
+Chris Wicker
+Because they need other people, not just the agents in IT answering those questions. They may
+need other people to weigh in on those tickets, actually solve the ticket, forward them, escalate
+them, those type of things.
+So it's really, there's not one set answer based upon the way our product works. Of course, the
+market gotcha and we're not we're not unique in this space having to deal with that any desk it's
+just you don't a 25 team member team in HR supporting call it 10,000 employees those 10,000
+employees don't need access to their tickets yeah submit a form they would email whatever the
+case may be in whatever channel the company wants to receive the ticket it comes in gets
+allocated or assigned to the proper people and taken care of in some cases if it if it uses our AI
+functionality it could potentially solve it without even out having an agent involved and then they
+get their answer they self-serve and they move on gotcha okay so for for our purposes yes the
+employee size does not necessarily indicate the amount of licenses because you were
+mentioning okay got it that's helpful but in in instances where uh let's
+Jack Bricknell
+When you say like a 500-employee support organization, are you talking about a company that
+does outsource customer support?
+Chris Wicker
+No, they may have a catalog of products that they're selling or supporting, and then customers
+are emailing and saying, I didn't get the right product.
+I got two of them versus three of them. I need a refund. This thing's broken. It needs to be
+warrantied, whatever the case may be.
+That's an external support use case. Internal support is, hey, I email IT at XYZ company. I need
+my password reset.
+My computer's not working. I need to schedule to get a loaner and get it fixed. Printer's not
+working. I can't get logged in, what the case may be.
+Jack Bricknell
+Okay, so you got external and internal support use case. Okay. All right. Interesting.
+Chris Wicker
+I mean, it's typically, typically, you know, in my My opinion, where you're going to find those
+revenues on an ARR level that would be of interest in investing dollars to support this, you're
+probably going to be in the 150 to 350 employee count and anywhere from probably 75 to a
+hundred million dollars.
+Now, granted, you're going to have edge cases, right? I mean, you very well could have a $500
+million company that only needs four seats in HR.
+Jack Bricknell
+Yeah.
+Chris Wicker
+We'll take that, but that's not as exciting.
+Jack Bricknell
+Yeah, I get you. Okay. And industry wise, you were mentioning fintech healthcare. The selling
+point is that you're one of two that are actually, you know, secure.
+Basically, where it's hosted is not necessarily a public cloud.
+Chris Wicker
+Correct. We have flexible deployment options. You can get the same product either in the cloud
+or in a self-hosted environment.
+That can be on your own server. informative 둘! Gulach It can be in a private cloud in AWS,
+Azure, anywhere where you want to host it in a private cloud.
+You go to someone like Zendesk, Freshdesk, they don't have that. They are a pure cloud
+solution, and they make you host their product in their servers.
+Jack Bricknell
+Got it. So that's kind of a selling point. Is this a market where a lot of these companies are
+already using a Zendesk or a helpdesk, or a market where a lot of them aren't using anything in
+particular, emails, that kind of stuff?
+Chris Wicker
+So HR, it's probably, you might find 25%, 35% are using something, and they're probably using
+something because they partnered with IT, and they're using what IT uses for their support.
+But the majority of HR departments at the lower end don't have something today. They are
+using a shared inbox, and they need to be educated on, hey, there's a better way to
+communicate with your employees and make your HR users more.
+Or productive by having the system allow the employee to self-serve the information they need
+or self-serve the answers so they're set up there.
+On the IT side of things, they're going to have something. They're going to have a Zendesk, a
+Spiceworks, a Fresh Desk.
+They're going to have something, and it very well even could be a homegrown system. But they
+will have something that they're using to route tickets, respond to tickets, solve tickets, et cetera.
+Jack Bricknell
+Got it. But the sell there is kind of the main selling point I'm understanding is that private cloud
+versus what are some of the other ones?
+Chris Wicker
+I think one thing we hear about Zendesk and Fresh Desk, for example, those are the two
+elements in the room.
+Their service is not the best. mean, Fresh Desk is, their service is all out of India. They're very,
+Zendesk thinks they, they're like the king of the castle.
+So we get a A of feedback if people are just tired of dealing with their support, if they've been
+with them for a few years, they might have gotten several price rises and are looking to, or
+maybe what they bought is overkill, maybe there's a change in ownership of that product
+internally, and they're just reviewing options.
+mean, in the world we live in today, I think most smart business leaders are always looking for
+ways to be more efficient and to save costs.
+But you talk to an IT director, he has a need, he already is using something, but there may be
+frustration amongst his team saying, this piece sucks, we can't get this to work, they're not
+solving my issues.
+We're always having to talk to support, they're not very reliable, and it's more of a headache for
+them at the admin level or the director level.
+You're not going to find an IT leader who doesn't have somebody running the help desk
+platform.
+Jack Bricknell
+Got it. Okay, good.
+Chris Wicker
+Let me just go. So I'm only bringing up the self-hosted piece is because it's a very unique value
+proposition.
+Jack Bricknell
+Yeah.
+Chris Wicker
+We don't care. The price is the same. Right. We don't care where you deploy it. It's just we have
+that as an option, and we don't – prior to me getting here, I don't think we did a very – and still
+we're working on improving it.
+We didn't do a very good job of selling that. Yeah. Just say, what are you using today? Where
+do you want it deployed?
+And if they said on-premise, which we are now calling – we're trying to call it self-hosted
+because it's not just on-premise.
+On-premise is the old vernacular of you have a server room and it's stored on your own servers.
+Well, self-hosted is you choose where you want to host it privately.
+And so I just believe that there's an opportunity out there in certain verticals. Now, you might find
+a defense contractor or a healthcare organization that's supporting the healthcare world.
+on theourt. We'll That doesn't care. Yeah. Who knows, right? And so it's not a, hey, this industry
+only uses this.
+It's a certain app to want a self-hosted solution.
+Jack Bricknell
+Got it. Okay. So, yeah, we could test out and see what the market thinks of that point. Okay.
+Cool.
+Let me tell you about the approach we like to take with software companies. Um, and you let me
+know how you think it could work or where you think how you would approach it.
+Um, so like an example, predictive safety, I mentioned earlier, um, the way we brought on those
+big airlines was fairly straightforward.
+So we keep the emails two or three sentences, max, uh, sort of like the one I would assume you
+received.
+Um, the reason we do that is, is particularly in the large companies. And as more and more
+people start doing email outreach and it's more accessible, um, Um, Um,
+People don't really give the time of day to email messages, so you want to get straight to the
+point.
+In the example of the airline campaign we did for that software company, we said, you know,
+hey, first name, Delta Airlines recently mandated our solution for their subcontractors.
+On average, it reduces incident rate by 37%. Would you be interested in seeing a quick demo of
+how it works?
+That was the whole email. We take that. Send it out to anyone senior, responsible for safety,
+HR, at other airlines, and, you know, when you name Delta Airlines, which is the largest airline
+by revenue, and say, hey, they mandated this, and this is the average sort of result or unique
+value that's provided, and you just say, you know, would you be interested in a demo?
+It might not be them always that takes a demo, but the response rate was very, very high, and
+we booked a ton of demos for them.
+very much. Thank So I'm thinking about how we could leverage some of the names that you
+have, and I get that it's kind of a marketing ploy.
+totally get that. But it's a marketing ploy for a reason. That kind of messaging does work. So I'm
+thinking about how some of the maybe statistics that we could potentially leverage, or especially
+some of the brands that we could name.
+And we like to do that. So we'll pick apart for them, for example, the airlines was hyper
+successful. But we did the same thing for all their other industries.
+So we did the same thing for construction, and then we name dropped the construction
+company. We did the same thing for mining.
+And I think we got an Anglo American, which is the fourth largest mining company in the world
+with just an email, right?
+So I'm thinking about how we could sort of leverage that for Despro. What are your thoughts?
+Chris Wicker
+I don't have any, I don't have any thoughts about it. I mean, I, you know, I'm looking to
+supplement what we're doing, and we need to, if we were to partner together, do something and
+then pivot as we see things happen, what's working, what's not working, you guys, not only,
+you're not the only experts, but you're the expert I'm talking to today.
+Jack Bricknell
+You're the expert in the selling world, right?
+Chris Wicker
+So, I would look for that guidance on what do you need to understand, what do you need to
+know so that you can build messaging to at least get started, and then we can pivot off of that.
+Jack Bricknell
+Yeah.
+Chris Wicker
+And I may be able to give it to you, I may not be able to give it to you.
+One of the things that was not happening before the investment, we didn't know, and we just
+installed a piece of software in our platform, only on cloud, because we can't get behind, we
+can't get to all self hosted because of firewalls.
+But we did not. This was a 20-year plus company that was run by a technical co-founder that
+wanted to build some really cool software and just have a business, and then he got to a point
+where he's like, this thing has so much opportunity, but I don't want to take it there, I want to be
+a part of it, so he went out to the market and looked for investment, and that's how we got here,
+so we're much more, we're growing and scaling into a proper business that would know some of
+those things.
+Jack Bricknell
+So there may be things you ask me that I have to say are very basic, and I would love to give
+you an answer, but I don't have an answer for you.
+Gotcha. Gotcha. Yeah, I totally get that. We get that sometimes. You know, the more statistics
+we can be armed with, the better.
+That said, if we have, even what I'm looking at right now on my screen with like Airbus, Brown
+University, you know, even if there's not necessarily average statistics to mention, if we can
+say...
+Look, they were having this problem, and this is what we fixed, that kind of messaging can also
+work. So, yeah, that's kind of the information that I would aim to collect so that we can make
+this, you know, make this work.
+What's sort of your goal with this? I know you said to supplement your efforts, but in terms of, I
+guess, a number of demos or a number of, you conversations, what would you be looking for?
+Chris Wicker
+I mean, if I could get 15 to 20 qualified discovery calls, and out of that, let's just use 20 because
+it's easier math for percentages.
+If I could get 20 qualified discovery meetings, which turned into 10 qualified demos, and five of
+those got through the process to actually buy from us, I think that would be a, would be a
+success.
+Right. Okay. Do an idea of what your commercial structures look like?
+Jack Bricknell
+Yeah, for sure. So we typically do a setup where we're going to try, I think in this use case,
+you've got quite a large TAM.
+I think we go for probably 2,000 3,000 emails daily. So when you look at that from a monthly
+basis, we don't send on weekends.
+That's going to be 66,000-ish every month. Now, we typically do a three-email cadence, so
+we're going to try to aim to hit around 20,000 different prospects every month.
+With email, is kind of a volume game because it's not like LinkedIn. You have naturally a low
+response rate.
+But I'll walk you through a little bit on the KPIs, and then I'll get to the commercial side in just a
+minute.
+So, like, if we were to send 66,000 emails, this is on a monthly Our goal is typically to aim for
+anywhere on a more narrow campaign, maybe 5% reply rate.
+On a more broader campaign, it might be a 3% response rate. So you're looking at 1980
+responses. Now, only a small portion of those responses are actual interested responses.
+The majority of email responses are always unsubscribe or not interested. It's just the nature of
+how it works. But if we're able to get between 3% to 5% of those to then be actual leads,
+interested people, 5% is 99 interested responses.
+But if I quickly do this, 3% would be about 60 interested responses. Our goal is to take as many
+of those interested responses and turn them into actual booked meetings.
+And typically, we aim for 50% because we want to squeeze as much as A typical number might
+be 25% to 30% of those.
+So from a conservative scenario, 3% response rate, 3% of those responses being interested,
+you're looking at around about 18 actual discoveries.
+And then, of course, from the discovery call, how those metrics go is determined by, you know,
+how qualified the lead is and then also your guy's side on the sales side.
+ACTION ITEM
+Send proposal to Chris for cold email outreach services (3k emails/day, 3-month trial, $9.5k
+upfront/$3.3k monthly + $250/meeting)
+Okay.
+Jack Bricknell
+Cool. All right. Let grab. Let's pull something up real quick. So yeah, that would be a 3,000 email
+a day setup.
+How that typically looks is we do a three month trial. The three month trial is we keep it trying.
+Keep it relatively low risk. So what we do is we do 10K as the flat, and that's either paid $9,500
+up front or $3,300 a month for the three months split apart, and then we do a pay-per-meeting.
+Pay-per-meeting in this case, I would guess we'd probably put it on the lower end simply
+because these are kind of much easier prospects to reach.
+So we have some clients where they want the CFO of 500 million-plus-a-year companies, and
+it's very hard to reach those people.
+With this, we could probably do something like $250 per meeting, and that would be the
+commercial structure of this.
+Chris Wicker
+And what if the meeting doesn't show up?
+Jack Bricknell
+Then you don't pay.
+Chris Wicker
+And how do we prove that, or how do you track that?
+Jack Bricknell
+So we set up, we have tracking for all the meetings we book, obviously. It's important for us
+getting paid.
+And then when you have something that's a no-show, we have a system where You can flag
+that, and you're credited on the future.
+So we don't do it where we're going to refund you every time because that would be a
+nightmare, but we just credit it to future meetings.
+Chris Wicker
+Sure. Okay. So roughly either $9,500 up for up in three months or $3,300 a month paid monthly,
+and then $250 every booked, qualified, interested opportunity.
+Jack Bricknell
+That's right.
+Chris Wicker
+Okay. And how long does it take to get started?
+Jack Bricknell
+So the email infrastructure has a hard need for a two-week warmup. Unfortunately, we can't
+really do anything about that.
+But what we do do is to get that going, we take about two business days, so we keep that as
+short as possible.
+And then also during that two-week warmup period is when we do all of the lead list pulling, all
+of the campaign messaging, so that right at the end of roughly 16 days, because two days in the
+four and 14 days, day.
+ACTION ITEM
+Review Jack's proposal for cold email outreach services by Fri 4/11
+Thank We are ready to go.
+Chris Wicker
+Okay. All right. Can you get me something in writing?
+Jack Bricknell
+Yeah, I can shoot you a proposal.
+Chris Wicker
+All right. Why don't we do that at the next step?
+ACTION ITEM
+Send calendar invite for follow-up meeting Fri 4/11 3pm Central
+All righty. Sounds good.
+Chris Wicker
+And then we'll probably try to reconnect with you by the middle of the week, but for sure by the
+end of the week.
+Jack Bricknell
+Gotcha. Okay. Do you want to put a placeholder on the calendar for, say, next Thursday? Sure.
+Chris Wicker
+I just know I'm going to have a busier week stateside next week because I'm in London the
+week after that with my London team.
+Jack Bricknell
+Gotcha. That was the 10th.
+Chris Wicker
+What about just same time, 3 p.m. on Thursday? Central.
+Jack Bricknell
+3 p.m. Central. 3 p Central. Let me take a look. Central Thursday. 3 p.m. One sec. I have some
+not-so-great Wi-Fi at moment.
+I could do that on Friday.
+Chris Wicker
+All right, that's fine.
+Jack Bricknell
+Okay, perfect. I'll send you the invite for 3 p.m.
+Chris Wicker
+Central Friday next week. Okay, perfect. Thank you very much. Appreciate the info and we'll talk
+next week.
+Jack Bricknell
+When do you think you'll have me over a proposal? Maybe Monday? Monday?
+Chris Wicker
+yeah. Okay, perfect. I appreciate it.
+Jack Bricknell
+Sounds good. Nice talking to you, Chris. You too. Bye. Take care. Bye.
+"
+4: "Sam Knoll
+How are we doing?
+Jack Bricknell
+Hey, Sam. How are you?
+Sam Knoll
+I'm good. Sorry about all these note takers, by the way. They don't all need to be in here. They
+follow me around.
+Jack Bricknell
+I've got one as well. You've got two of them. Double the notes.
+Sam Knoll
+I tell you. I'm not going to miss anything, right? Let me close my door. Hold on one moment. All
+right.
+Jack Bricknell
+So how are you doing? Where are you based?
+Sam Knoll
+Greensboro. Love no, I'll back. I'm I'm in, my office is in Greensboro.
+Jack Bricknell
+I live in Durham, North Carolina. Okay. So you're really, you're really close by then because I'm
+in Chapel Hill.
+Sam Knoll
+Oh, okay.
+Jack Bricknell
+Yeah.
+Sam Knoll
+Yeah. That makes sense. I knew that. Yeah. My, my wife is a professor. Well, she runs the Mac
+program for Keenan Flagler.
+Jack Bricknell
+Oh, okay.
+Sam Knoll
+Yeah.
+Jack Bricknell
+They haven't let me in just yet.
+Sam Knoll
+I've got to keep working at it now, but hopefully they value, you know, me actually going, going
+and doing things.
+Uh, yeah.
+Jack Bricknell
+Anyway, um, what, uh, what got you interested in, uh, and jumping on and talking to me?
+Sam Knoll
+Uh, just, uh, an interesting, you know, kind of, I don't know. It just looked like something that, uh,
+I might be able to work with.
+It could, be a benefit either to me or to the business I'm, I'm with.
+Jack Bricknell
+So yeah.
+Sam Knoll
+Yeah. Yeah. Yeah. That's really what, like
+Jack Bricknell
+Got you. You're in charge of marketing, right?
+Sam Knoll
+I am. I'm one of the people in charge of marketing. You know, it's interesting. There are two of
+us who have this same title that I do, and we actually act as kind of virtual or fractional CMOs for
+some of our clients.
+And for many others, we are simply creating the marketing plan that we then use our team to
+carry out for them.
+Jack Bricknell
+Right. Okay. So you also do marketing for the clients as well.
+Sam Knoll
+Correct.
+Jack Bricknell
+Yep. Okay. That's interesting. Your role is both the actual company's marketing and then also
+the clients. Gotcha. What types of things do you do right now for Cogent Analytics specifically to
+get clients besides, you know, referrals and word of mouth?
+Sam Knoll
+right. Thank you. Bye. Well, what's interesting with that one is the opposite end, if you go to the
+other end of this floor I'm on, is filled with about 70 people who are a phone bank, who are
+pulling in prospects every day.
+Jack Bricknell
+Wow.
+Sam Knoll
+The way our business works here, those folks come in, they get evaluated, if they sign on, they
+work with an analyst for two to three days who then often prescribes that they need to work with
+a project manager who will step in for kind of eight to 15, 14, 15 weeks, to really kind of realign
+the processes within their business.
+During that period, they oftentimes also either determine then or the initial analysts may
+determine that they need some help with.
+So the bulk of our clients right now are already clients of this company, so to speak. So as I look
+at that, it could be feasible that working with you could be an asset for some of my clients.
+It also could be an asset for me personally as well as I look at other things that I may work on
+outside of this company.
+Jack Bricknell
+Got it. Okay, that makes sense.
+Sam Knoll
+Thanks for the overview.
+Jack Bricknell
+Yep. Cool. Yeah, I read up on a lot of, well, not a crazy amount of them, but I read a few of the
+case studies and sort of the results from the website.
+And you guys are mostly working with sort of traditional businesses, wholesalers, contractors.
+Sam Knoll
+Yeah, it's interesting. That website, and this is in the kettle black because it's the same
+conversation I have with most of my clients and prospects, but our website is being redone right
+now.
+If you notice, if you look up the word marketing, there is not a single page on that site for
+marketing.
+We have no section of the site at this point. We're a newer piece of the whole thing, yet we've
+been around since, I think, 2019.
+So it's, yeah, that one will be really, really nice once that has grown and we get that new site up,
+then it's feasible.
+We may actually be properly represented, and all of those case studies need to be updated, but
+you're right. Most of our small to medium-sized businesses have a blue-collar-esque element to
+them.
+We also do work with groups It's like architects, some higher-end engineers, things like that, but
+it still has this blue-collar-ish element.
+Jack Bricknell
+Right. Yeah. Yeah, I see that. I see that, sure. But yeah, it's a good thing you're getting a new
+website.
+This one looks like it's pretty outdated.
+Sam Knoll
+It is.
+Jack Bricknell
+It is.
+Sam Knoll
+Look, it's very painful for us to tell someone that they need to redo things, and then they look at
+our site, and it needs to be redone, you know?
+Jack Bricknell
+Yeah, do as I say, not as I do, right?
+Sam Knoll
+Exactly.
+Jack Bricknell
+Yep. Yeah, yeah, yeah. Interesting. Okay. Well, I'll tell you a bit about sort of where I run, and
+maybe you'll have some ideas on where it could be helpful for you guys.
+Nice. So we do email outreach at scale, which means, you know, emails like the one that you
+got, but you know, on a massive scale.
+So we do that to get our own clients, of course, but also that is the service we offer to our
+clients.
+And it's an interesting thing because it can be helpful for so many different industries.
+Sam Knoll
+Anything that's really B2B, this can be helpful for.
+Jack Bricknell
+So it could be anything from we've had a commercial cleaning client who was just we wanted to
+email all the local businesses and tell them, hey, you know, what are you currently paying for
+your space?
+Would you be interested in a 30 minute free consultation to see if we could do it for less? Right.
+And then also, you know, I've had people that are using it for raising capital. So the biggest thing
+I've ever done, which unfortunately I wasn't a licensed broker dealer, I couldn't take a
+percentage, but I helped a small group of maybe 10 of them investment bankers.
+They were raising 150 million for a. A realty trust, AIP realty trust. And we did an outreach
+campaign. They basically gave me, look, here are the types of companies that would be
+interested in this.
+You can find what the investor mandates are using a software called PitchBook where you can
+pull all the data.
+So I pulled all the data. We sent out emails, very simple emails. Look, this is the company. This
+is what they're offering here.
+It's the estimated IRR, all the fancy terms. And we got them a bunch of meetings with industry
+investors and they ended up from the meetings that I got them from the email, filling the whole
+round, 150 million bucks.
+Sam Knoll
+Awesome.
+Jack Bricknell
+So I like to use that example because it can be as simple as a local business doing emails to all
+the businesses in the area to something like that, where they're raising 150 million bucks from
+email outreach.
+Sam Knoll
+Very cool. How long have you been doing this? Well, guess, yeah. How long have you been
+doing this and how big is your – it sounds like you have a team, quote-unquote, but what can
+you tell me about your business side of this?
+Jack Bricknell
+Yeah, so I'll tell you the whole spiel. So I first started about two and half years ago with learning
+how to do email outreach.
+Before that, had different businesses, but that was – I was 17 in the summertime. And I had
+done it – my buddy had told me about this accounting firm that would pay you like a percent of
+what business you could drive for them.
+And so he invited me, and I taught myself the skill like a bunch of the softwares. And, of course,
+when I first started, I wasn't that good.
+But in three months, I got them 66 meetings with CEOs and CFOs at American companies
+between 20-ish employees to 500 employees on the larger end.
+And from those meetings, it came out – it was a specific type of tax credit they were doing, and
+they got about $4 million worth of tax credits.
+And the accounting firm made $800,000 and paid me a percentage of the revenue that I got
+them. I said, well, not bad for just sending some emails.
+Sam Knoll
+could work.
+Jack Bricknell
+Yeah, exactly. So then I started doing it. For a long time, I kept doing it on commission basis.
+And very quickly, I realized that that was not really a sustainable model for running a business.
+It's only working on commission. That took me a long – a lot of failures and a lot of really good
+results and then ending up getting stiffed.
+But then eventually, I built it into like a proper service. I have a team of five people. They're
+overseas, so no Americans yet.
+But – and, you know, I've been growing it quite rapidly and balancing that with UNC. don't to
+see. Let's I'm going
+So that, you know, that's where we're at now.
+Sam Knoll
+What year are you right now?
+Jack Bricknell
+Freshman.
+Sam Knoll
+Freshman. Yeah. Cool. Cool, cool. All right. Well, you know, it's interesting. So I'm just trying to
+think. How did the dollars work in utilizing your service at this point?
+Jack Bricknell
+So my structure, I've spoken to a bunch of mentors and they told me you need to raise your
+price because I used to do it for not that much.
+And honestly, the client wouldn't be that invested. I wouldn't be that invested. It's not it's not
+really a good relationship.
+So I've been trying to do less clients and more per. So the last six clients that I've onboarded,
+we do 10K for a three month trial of the service.
+And then after the three month trial, we move to a fixed monthly fee. The very. very.
+Sam Knoll
+Interesting. Okay. And so, you know, when you, when you're going in short to sell this to
+someone, you know, you're explaining, you know, or I guess, how do you justify the 10,000 as
+you're, you're discussing this with the prospect then?
+Jack Bricknell
+So first I do the discovery call where basically I try and figure out, okay, how is this? Genuinely, I
+don't take everyone that comes because there are some companies where I just think, I don't
+think this will get them a great result.
+And so I don't, I'd rather have the client for longer than just be taking people and making quick
+10 grand and then, you know, they leave because, you know, I don't actually make a crazy
+amount of profit on, on just the 10 grand.
+Sam Knoll
+Plus you can make some assumptions about their potential targets to, you know, some, I'm sure
+some of those you look
+And you think, all right, this one, based on what I've done and how I know at least what I have
+set up works, this one looks like I have a good potential to pull kind of another, some great
+prospects for them.
+Jack Bricknell
+Yeah. So like some, some clients come in and I know I just did this for another software
+company that has a bunch of good case studies.
+That's really a big thing for me is having these companies. One of the best ways to do this is just
+to do a very short email that says, Hey, we just did X, Y, and Z for a company exactly like yours.
+So what I'll do is I'll look at, let's say they have 20 previous clients and they just helped
+Coca-Cola do whatever.
+Maybe I can't name Coca-Cola by name, but I can say we just helped one of the largest
+beverage companies increase EB to 5% or whatever.
+Would you be interested in seeing how we did it? You take that framework, apply it to all the.
+Previous case studies they have, it's every single time I do that, it works, almost every time.
+So the difficulty is when they don't have a good track record or really – also, it's what they
+charge.
+So what do they make per client? I have clients where, for instance, one of our clients does a
+negotiation of FedEx and UPS contracts, and they take a percentage of what they save the
+client.
+So we just got them a client who's spending about $5 million a year on FedEx and UPS, and
+they're going to save them around 27% to 29% of that.
+I call it a million bucks a year, a million three, I think. They're going to make $300,000 a year for
+a period of three years off of that client that I got them.
+So for them, paying me $5,000 a month is like, of course I'm going to pay this guy $5,000.
+Sam Knoll
+Yeah, why not?
+Jack Bricknell
+Yeah, exactly. So it's about what they charge, their track record. And who they're trying to reach.
+Sam Knoll
+Very interesting. Yeah, so what kind of what pieces do you need or what elements from a
+business? I hear the case studies, and that makes perfect sense.
+Yeah. Probably some landing pages created as well. What's your process when you're working
+with someone then?
+Jack Bricknell
+So for me, case studies is helpful. Some businesses, case studies, like we're about to onboard
+a, this might be more in tune with the kind of clients that you guys have, a mobile installations
+company.
+So they service transit agencies across the U.S. with new parts on their buses and this kind of
+thing. And basically they can do it for cheaper than the equipment manufacturers themselves
+because they upsell them on that or whatever.
+But for that approach, it's not really a case study thing. It's just, look, likely you're overpaying on
+paying the equipment manufacturer itself.
+We've been in business 25 years, serviced God knows how many buses. Would you be
+interested in just a quick chat to see if you're overpaying for this or not?
+Just a quick chat. We're going to do that. We're going to send it to all the transit agency. He's
+giving me a list of job titles to hit.
+And it's not really a case study approach. So it can work with it without case study. just depends
+on the type of business.
+Landing pages, I don't need. So we do all that. We build everything. I get the lead scraped. The
+things I need essentially is basically a 30 to 60 minute call with the client to really understand
+who is it you want to talk to.
+You know, geography, uh, which person in New York. The hard part is getting a really good
+understanding of their business so that I can condense their whole value proposition into a
+three-sentence email.
+That's the hard part. But you do it enough times, you can do it.
+Sam Knoll
+That's the creativity end of what you do. Writing great emails, and I try to explain this to a lot of
+clients, is its own science and art.
+Anyone can write an email, but to write one that works, the whole other world.
+Jack Bricknell
+Yeah, exactly. And also, we have clients, like I'll have some really corporate clients, and they've
+got a whole marketing department.
+And the marketing department is sending out these emails that are three paragraphs long and
+thinking that some CEO is actually going to take time to read that from someone they've never
+even talked to.
+So we've got to condense it right down. That's the most important part of it, really.
+Sam Knoll
+It's probably three paragraphs long. It sounds like it's coming from some big, powerful company
+as opposed to someone communicating with them.
+Exactly. Totally different world.
+Jack Bricknell
+Exactly. Yep.
+Sam Knoll
+Yep.
+Jack Bricknell
+Yeah. Exactly.
+Sam Knoll
+Yeah, I spent seven years working at, I think at the time, was the biggest biotech company in the
+world, running one of their divisions, at least all the digital marketing.
+They one of their divisions and got the emails they sent out were all fit that way. Yep. And
+almost every one that went out was because of an offer.
+There was no information that got sent out. They weren't sharing anything.
+Jack Bricknell
+They weren't building a community. There was none of that taking place. Yeah.
+Sam Knoll
+It was sad.
+Jack Bricknell
+Yeah. Yeah. I mean, the best approach is to just treat it like you're actually writing an email to
+another human being.
+Yeah. Yeah. Yeah. That's the best approach. Really, if you want to read the email, if it sounds
+like it's a marketing email, then you've done it wrong.
+The whole point is to just, I actually personally sat there and wrote this to you, but if you can
+automate that at scale and just have that kind of impression, then you'll win.
+Sam Knoll
+Interesting. All right. Well, this is interesting. You know, I think for my use, some of my clients,
+actually most of my clients, this would potentially be a decent fit for, but there are some others
+for whom it could be a really nice fit for them, where I know they're I they are trying to bring in
+the right prospects and the communication with those prospects is very important.
+And, and can be quite targeted to, you know, I mean, I example, I have one client who said, I've
+got 40 people I want to do business with, here they are, all in the state of Connecticut, you
+know, and we have to figure out how do we pull them in.
+He ultimately wants to meet with the CEO of every one of those people, take them to his club
+and smoke a cigar and drink bourbon with them and discuss doing work, you know.
+Jack Bricknell
+Yeah, yeah, yeah.
+Sam Knoll
+Most others don't hit it that way, but they may be interested in speaking with, here's another
+example, a company in the pool industry, like the swimming pool.
+Yeah. They want to speak with the manager of every apartment complex within, you know,
+they're in Houston, Texas. Yeah.
+And so it's within a 70 mile radius around them. It's a tremendous number of them, as well as
+the head of every HOA within that area and some other similar things.
+Those are the sort of options that I think for whom this could work quite well. Yeah. You know,
+bottom line, it's bringing up the problems those people have that they're not even aware of.
+Jack Bricknell
+Yeah. Exactly. Yeah. That's that's perfect that that example with the pools, I think it's the perfect
+example. That's very similar to what we did with the commercial cleaning company.
+Yeah. Which is, you know, just in this area, we want the managers at, you know, the apartment
+complex is a great.
+But, you know, all these different types of businesses and we can pull a list comes out, let's say,
+thousand people, for example, and we just email them.
+And when it's that by our standards, it's kind of a small. more. them all. Yeah. So what we'll also
+do is LinkedIn outreach to them because you just want to absolutely make sure you get in front
+of them.
+And the local approach works really well.
+Sam Knoll
+Yeah, because you listed early on, what are the different techniques you use to reach out?
+Jack Bricknell
+Obviously email, but what else do you use? Email is definitely the main one. That's where I've
+spent 80% of my time because it just works really well.
+And it's also one of those things you've got to stay up-to-date with it because Google Outlook,
+they're always changing their things.
+LinkedIn is the secondary. That's kind of a newer thing probably in the last six months I've
+implemented it. And I was honestly pretty blown away because you get a much higher response
+rate that you just can't do as much volume.
+But that's not, you know, if your whole list is only a thousand people, it's totally doable. And so
+what you can do is omni-channel.
+Email and LinkedIn. I've done some experimenting with direct mail, but I wouldn't say I'm good
+enough to where I'd want to like charge for it.
+I'd probably do that at cost just to make sure, you know, that but those two.
+Sam Knoll
+that's where my expertise is really direct mail is I'll just throw this out is also an interesting one. I
+find it all depends who you want to reach and what you're sending them can't look like a
+postcard or like a normal letter or, you know, it needs to oftentimes come in what appears to be
+a FedEx on quote, even though it's not, you know, it's and then the paper it's printed on is
+important and the personalization within that is even more important.
+And, and probably a real signature and all these little things.
+Jack Bricknell
+Yeah, they had company point elements they would They would be able to do it so it looks like
+it's handwritten, but there are a thousand of them, and that was pretty nifty.
+Sam Knoll
+Yep, yep. Interesting. All right. Well, what's kind of the next step here in your eyes?
+ACTION ITEM
+Identify potential use cases for email outreach service (Cogent Analytics + clients). Prepare to
+discuss in Friday meeting.
+say I think we should get a follow-up call on the books.
+Sam Knoll
+I got another one in a few minutes.
+Jack Bricknell
+Yeah, yeah. So we should get a follow-up call on the books. And I guess in between then, if you
+want to think about the use cases for Cogen or for the clients, and I would say, you know, we'd
+start out with one I think is sensible, and then, you know, try others.
+Another thing that's, you know, nifty is if you're doing this for the clients, it could be something
+where probably Sure.
+Yeah. Yeah. It's kind of a bundle. So we'll try with one, and if everything goes well, then you can
+sort of save them a bunch of money by doing it under you guys or however you think about
+doing it, where you could bundle it.
+Obviously, that's great for us, and it's great for you and great for the clients.
+Sam Knoll
+Meaning hitting numerous clients under that $10,000 umbrella?
+Jack Bricknell
+Yeah, so we would figure something out. I think what it would be is we do one, well, depending
+on what you're comfortable with, but one where you think this is a great use case for this, and
+potentially you could come to me whenever we next meet, sometime next week, and say, here
+are the few that I think this could be, and then I can tell you which one I think this would be.
+The one we could really nail it.
+Sam Knoll
+Okay.
+Jack Bricknell
+And then, you know, we could engage. on that, and then move from there. I think that would be
+reasonable next steps wise.
+So what, what times are you free next week?
+Sam Knoll
+Ah, that's a very good question. Let's look here. Next week, and what time are we now?
+Jack Bricknell
+We did a 2.30 today. Yep.
+Sam Knoll
+I could probably do like a Thursday, same time next week, how does that sound on your end?
+Jack Bricknell
+I can't, I can't do that one. I'm pretty open on Wednesdays and Fridays, and Mondays, I'm pretty
+open too.
+Sam Knoll
+What if we do that same time on Friday then?
+ACTION ITEM
+Send calendar invite for Friday 2:30 PM follow-up call with Sam Knoll.
+Friday at 2.30. Yep, that'll, that'll work.
+Sam Knoll
+I can do that. Okay.
+Jack Bricknell
+Perfect. Let me just, me just, What Cool. I'll send you an invite for Friday, 2.30 in the afternoon.
+Sam Knoll
+All right. Awesome. Thank you. Nice meeting you, Sam. Best of luck. Good meeting you. Yeah.
+And hopefully this will work out.
+That'll be good. Yeah. We'll talk next week. Awesome. Thank you. All righty. Take care. Bye-bye.
+Bye.
+"

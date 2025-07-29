@@ -1,11 +1,16 @@
 {
   "permissions": {
     "allow": [
-      "Bash(rm:*)",
-      "Bash(mv:*)",
-      "Bash(./automation/process-transcripts.sh:*)",
-      "Bash(./automation/generate-content.sh:*)"
+      "Bash(git reset:*)"
     ],
     "deny": []
+  },
+  "hooks": {
+    "stop": ".claude/hooks/stop-hook",
+    "post_tool_use": {
+      "Edit": ".claude/hooks/post-edit-hook.py",
+      "MultiEdit": ".claude/hooks/post-edit-hook.py",
+      "Write": ".claude/hooks/post-edit-hook.py"
+    }
   }
 }

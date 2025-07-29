@@ -1,0 +1,14 @@
+#!/bin/bash
+# Hook: Plays notification sound when Claude Code completes a task
+
+# Play system sound on macOS
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    # Glass sound for success
+    afplay /System/Library/Sounds/Glass.aiff 2>/dev/null || echo -e "\a"
+else
+    # For other systems, use terminal bell
+    echo -e "\a"
+fi
+
+# Log task completion
+echo "[$(date '+%Y-%m-%d %H:%M:%S')] Task completed" >> .claude/logs/task-completions.log

@@ -10,6 +10,11 @@ YELLOW='\033[1;33m'
 RED='\033[0;31m'
 NC='\033[0m'
 
+# Set up environment for hooks
+export CLAUDE_PROJECT_ROOT="$(cd "$(dirname "$0")/.."; pwd)"
+export CLAUDE_HOOKS_DIR="$CLAUDE_PROJECT_ROOT/.claude/hooks"
+export SLACK_NOTIFICATIONS_ENABLED="${SLACK_NOTIFICATIONS_ENABLED:-true}"
+
 # Get command
 COMMAND="$1"
 shift # Remove first argument
@@ -21,13 +26,16 @@ if [ -z "$COMMAND" ]; then
     echo "Usage: ./quick <command> [args]"
     echo ""
     echo "Commands:"
-    echo "  ${YELLOW}new${NC} <client>          - Start new client onboarding"
+    echo "  ${YELLOW}new${NC} <client>          - Start new client onboarding (in 0-INBOX)"
+    echo "  ${YELLOW}move-to-analysis${NC} <client> - Move client from INBOX to analysis"
     echo "  ${YELLOW}setup${NC} <client>        - Generate custom CLAUDE.md from config"
     echo "  ${YELLOW}analyze${NC} <client>      - Run complete analysis pipeline"
     echo "  ${YELLOW}batch${NC} <client> <num>  - Process specific batch"
     echo "  ${YELLOW}content${NC} <client> <level> - Generate content for awareness level"
+    echo "  ${YELLOW}gamma${NC} <client>         - Generate visual sales assets"
     echo "  ${YELLOW}check${NC} <client>        - Run quality gates"
     echo "  ${YELLOW}status${NC} <client>       - Show client progress"
+    echo "  ${YELLOW}research${NC} <client>     - Run deep AI research analysis"
     echo "  ${YELLOW}notify${NC}                - Test notification bell"
     echo ""
     echo "Awareness levels: problem-aware, solution-aware, product-aware"
@@ -44,14 +52,68 @@ case $COMMAND in
         fi
         echo -e "${BLUE}🚀 Starting new client onboarding for: $CLIENT${NC}"
         
-        # Create directory structure
+        # Copy entire template to 0-INBOX (the correct workflow)
+        if [ -d "./0-INBOX/$CLIENT" ]; then
+            echo -e "${YELLOW}⚠️  Client folder already exists in 0-INBOX${NC}"
+            exit 1
+        fi
+        
+        cp -r "./0-INBOX/new-client-template" "./0-INBOX/$CLIENT"
+        
+        # Personalize the client name in key files
+        if [[ "$OSTYPE" == "darwin"* ]]; then
+            # macOS
+            sed -i '' "s/\[CLIENT NAME\]/$CLIENT/g" "./0-INBOX/$CLIENT/01-client-info.md"
+            sed -i '' "s/\[client-name\]/$CLIENT/g" "./0-INBOX/$CLIENT/README-ONBOARDING-PROCESS.md"
+        else
+            # Linux
+            sed -i "s/\[CLIENT NAME\]/$CLIENT/g" "./0-INBOX/$CLIENT/01-client-info.md"
+            sed -i "s/\[client-name\]/$CLIENT/g" "./0-INBOX/$CLIENT/README-ONBOARDING-PROCESS.md"
+        fi
+        
+        echo -e "${GREEN}✅ Client onboarding folder created in 0-INBOX${NC}"
+        echo -e "${YELLOW}Next steps:${NC}"
+        echo "1. Complete all files in ./0-INBOX/$CLIENT/"
+        echo "2. Gather 15+ transcripts → Add to 02-sales-transcripts.md"
+        echo "3. Schedule discovery call → Document in 04-onboarding-call.md"
+        echo "4. When ready, run: ./quick move-to-analysis $CLIENT"
+        echo ""
+        echo -e "${BLUE}📋 Use the checklist: ./0-INBOX/$CLIENT/00-onboarding-checklist.md${NC}"
+        
+        # Send Slack notification
+        if [ "$SLACK_NOTIFICATIONS_ENABLED" = "true" ] && [ -f "$CLAUDE_HOOKS_DIR/post-task-hook.sh" ]; then
+            CLAUDE_TASK_NAME="new-client-$CLIENT" \
+            CLAUDE_TASK_TYPE="client_setup" \
+            bash "$CLAUDE_HOOKS_DIR/post-task-hook.sh"
+        fi
+        
+        # Triple bell for completion
+        echo -e "\a\a\a"
+        ;;
+        
+    "move-to-analysis")
+        CLIENT="$1"
+        if [ -z "$CLIENT" ]; then
+            echo -e "${RED}Error: Client name required${NC}"
+            exit 1
+        fi
+        
+        # Check if client exists in 0-INBOX
+        if [ ! -d "./0-INBOX/$CLIENT" ]; then
+            echo -e "${RED}Error: Client not found in 0-INBOX${NC}"
+            exit 1
+        fi
+        
+        # Create directory structure in data/clients
         mkdir -p "./data/clients/$CLIENT"/{transcripts,analysis,segments,content,metrics}
         mkdir -p "./data/clients/$CLIENT/content"/{problem-aware,solution-aware,product-aware}
         
-        # Copy templates from new-client-template
-        cp "./0-INBOX/new-client-template/COMPLETE-ONBOARDING-FORM.md" "./data/clients/$CLIENT/onboarding-form.md"
-        cp "./0-INBOX/new-client-template/01-client-info.md" "./data/clients/$CLIENT/client-brief.md"
-        cp "./0-INBOX/new-client-template/VA-TRANSCRIPT-COLLECTION.md" "./data/clients/$CLIENT/va-instructions.md"
+        # Move relevant files
+        cp "./0-INBOX/$CLIENT/01-client-info.md" "./data/clients/$CLIENT/client-brief.md"
+        cp "./0-INBOX/$CLIENT/02-sales-transcripts.md" "./data/clients/$CLIENT/transcripts/"
+        cp -r "./0-INBOX/$CLIENT/03-marketing-materials/" "./data/clients/$CLIENT/marketing-materials/" 2>/dev/null || true
+        cp "./0-INBOX/$CLIENT/04-onboarding-call.md" "./data/clients/$CLIENT/" 2>/dev/null || true
+        cp "./0-INBOX/$CLIENT/05-research.md" "./data/clients/$CLIENT/" 2>/dev/null || true
         
         # Create client config template
         cat > "./data/clients/$CLIENT/client-config.yaml" << EOF
@@ -124,12 +186,12 @@ transcripts:
   date_range: "[Date range of calls]"
 EOF
         
-        echo -e "${GREEN}✅ Client workspace created${NC}"
+        echo -e "${GREEN}✅ Client moved to analysis phase${NC}"
+        echo -e "📁 Location: ./data/clients/$CLIENT/"
+        echo ""
         echo -e "${YELLOW}Next steps:${NC}"
-        echo "1. Edit ./data/clients/$CLIENT/client-brief.md"
-        echo "2. Edit ./data/clients/$CLIENT/client-config.yaml"
-        echo "3. Add transcripts to ./data/clients/$CLIENT/transcripts/"
-        echo "4. Run: ./automation/generate-client-claude-md.sh $CLIENT"
+        echo "1. Review ./data/clients/$CLIENT/client-config.yaml"
+        echo "2. Run: ./quick analyze $CLIENT"
         ;;
         
     "setup")
@@ -233,6 +295,24 @@ EOF
                 echo "❌ $level content missing"
             fi
         done
+        ;;
+        
+    "gamma")
+        CLIENT="$1"
+        if [ -z "$CLIENT" ]; then
+            echo -e "${RED}Error: Client name required${NC}"
+            exit 1
+        fi
+        ./automation/generate-gamma-assets.sh "$CLIENT"
+        ;;
+        
+    "research")
+        CLIENT="$1"
+        if [ -z "$CLIENT" ]; then
+            echo -e "${RED}Error: Client name required${NC}"
+            exit 1
+        fi
+        ./automation/run-deep-research.sh "$CLIENT"
         ;;
         
     "notify")

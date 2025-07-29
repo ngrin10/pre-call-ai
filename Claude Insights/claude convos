@@ -1,0 +1,277 @@
+## **Seamless Onboarding → Cursor Integration Workflow**
+
+### **1. Updated Cursor Structure for Onboarding Flow**
+
+```
+/scalestream-system/
+├── /.cursor/
+│   └── rules.md
+├── /0-INBOX/                          # 🆕 Everything lands here first
+│   ├── /new-client-template/
+│   │   ├── 1-transcripts-raw.md
+│   │   ├── 2-marketing-materials.md
+│   │   ├── 3-onboarding-call.md
+│   │   ├── 4-company-research.md
+│   │   ├── 5-avatar-research.md
+│   │   ├── 6-competitor-research.md
+│   │   └── 7-additional-context.md
+│   └── README-START-HERE.md
+├── /1-ANALYSIS/                       # 🆕 Processing happens here
+│   ├── analysis-commands.md
+│   └── /[client-name]/
+│       ├── batch-1-analysis.md
+│       ├── batch-2-analysis.md
+│       ├── segment-synthesis.md
+│       └── final-segments.md
+├── /2-CONTENT-GENERATION/             # 🆕 Output goes here
+│   └── /[client-name]/
+│       ├── emails/
+│       ├── sms/
+│       ├── assets/
+│       └── implementation-guide.md
+[Rest of original structure...]
+```
+
+### **2. The Onboarding → Cursor Flow**
+
+Create this file: `/0-INBOX/README-START-HERE.md`
+
+```markdown
+# New Client Onboarding Process
+
+## Step 1: During/After Onboarding Call
+
+1. Copy `/0-INBOX/new-client-template/` folder
+2. Rename to client name (e.g., `/0-INBOX/abc-corp/`)
+3. Start filling each file AS YOU GET THE INFO
+
+## Step 2: Data Collection Checklist
+
+### File 1: `1-transcripts-raw.md`
+```
+Total Transcripts: [X]
+Source: [Gong/Fathom/Zoom/Doc]
+
+=== TRANSCRIPT 1 ===
+Date: 
+Outcome:
+Rep:
+[Paste transcript]
+
+=== TRANSCRIPT 2 ===
+[Continue...]
+```
+
+### File 2: `2-marketing-materials.md`
+```
+## VSL/Video Scripts
+[Paste transcripts of their videos]
+
+## Case Studies
+[Paste their case studies]
+
+## Website Copy
+[Key pages copy]
+
+## Current Email Sequences
+[Their existing emails if any]
+```
+
+### File 3: `3-onboarding-call.md`
+```
+Date: [Date]
+Attendees: [Names]
+
+## Key Points Discussed
+- Business model:
+- Target avatar:
+- Main pain points:
+- Competitors mentioned:
+- Success metrics:
+- Unique mechanism:
+
+## Full Transcript
+[Paste onboarding call transcript]
+```
+
+### File 4-7: Research Files
+[Templates for each research type]
+
+## Step 3: Start Analysis in Cursor
+
+Type this command:
+"I have a new client [name] ready for analysis in the inbox. Start the forensic analysis process."
+
+Cursor will automatically:
+1. Move files from INBOX → ANALYSIS
+2. Begin transcript analysis
+3. Incorporate all context
+4. Generate segments
+```
+
+### **3. Cursor Rules Update for Onboarding**
+
+Add to `.cursor/rules.md`:
+
+```markdown
+## New Client Onboarding Process
+
+When user says "new client [name] ready for analysis":
+
+1. Check `/0-INBOX/[client-name]/` for all 7 files
+2. Verify completeness:
+   - At least 15 transcripts in file 1
+   - Marketing materials in file 2
+   - Onboarding transcript in file 3
+   - Research files 4-7 (can be basic)
+
+3. Create analysis structure:
+   ```
+   /1-ANALYSIS/[client-name]/
+   ├── context-summary.md (synthesize files 2-7)
+   ├── transcript-batches/ (split file 1 into batches of 10)
+   ├── batch-analyses/
+   └── segment-identification.md
+   ```
+
+4. Start forensic analysis using:
+   - Primary: Sales transcripts
+   - Context: Everything else
+   - Output: Clear segments with evidence
+
+## Analysis Integration
+
+When analyzing, ALWAYS reference:
+- Onboarding call insights for business context
+- Marketing materials for their current messaging
+- Research files for market positioning
+- Their unique mechanism and differentiators
+
+Weight insights by source:
+1. Sales transcripts (highest - actual buyer language)
+2. Onboarding call (high - strategic context)
+3. Marketing materials (medium - aspirational messaging)
+4. Research (supporting - market context)
+```
+
+### **4. Onboarding Day Workflow**
+
+Create: `/0-INBOX/onboarding-day-checklist.md`
+
+```markdown
+# Onboarding Day Checklist
+
+## During Call
+- [ ] Take notes in `3-onboarding-call.md`
+- [ ] Record call for transcript
+- [ ] Get access to their tools
+- [ ] Confirm transcript delivery method
+
+## Immediately After Call (30 min)
+- [ ] Create client folder in `/0-INBOX/`
+- [ ] Copy template files
+- [ ] Add onboarding notes while fresh
+- [ ] Send client follow-up with requests
+
+## By End of Day
+- [ ] Upload onboarding transcript
+- [ ] Add any materials shared during call
+- [ ] Do basic company research (15 min)
+- [ ] Create Notion entry with status
+
+## Next Day Morning
+- [ ] Check if transcripts arrived
+- [ ] Begin organizing in Cursor
+- [ ] Start analysis if ready
+```
+
+### **5. Smart Commands for Smooth Flow**
+
+Add to `/prompts/05-quick-prompts.md`:
+
+```markdown
+# Onboarding Integration Commands
+
+## Initial Setup
+"Set up new client [name] from onboarding on [date]"
+→ Creates folder structure and checklist
+
+## Completeness Check
+"Check if [client] is ready for analysis"
+→ Verifies all 7 files have content
+
+## Context Summary
+"Create context summary for [client]"
+→ Synthesizes files 2-7 into single brief
+
+## Begin Analysis
+"Start forensic analysis for [client] with full context"
+→ Runs analysis incorporating ALL materials
+
+## Quick Segment Check
+"Based on [client] onboarding call, what segments should I expect?"
+→ Pre-identifies likely segments from context
+```
+
+### **6. The Smooth Integration Process**
+
+```mermaid
+graph TD
+    A[Onboarding Call] --> B[Fill 0-INBOX Template]
+    B --> C{All 7 Files Ready?}
+    C -->|No| D[Gather Missing Info]
+    C -->|Yes| E[Run Context Summary]
+    E --> F[Begin Transcript Analysis]
+    F --> G[Incorporate All Context]
+    G --> H[Generate Segments]
+    H --> I[Create Content]
+    I --> J[Move to Implementation]
+    
+    D --> C
+```
+
+### **7. Context Integration Example**
+
+When you run analysis, Cursor will now do this:
+
+```markdown
+"Analyzing ABC Corp transcripts with context:
+
+From Onboarding Call:
+- They struggle with show rates (currently 45%)
+- Main competitors: XYZ, 123 Corp
+- Unique angle: 24/7 support
+
+From Marketing Review:
+- Current messaging focuses on price (mistake?)
+- Case studies emphasize speed
+- No emotional connection in current emails
+
+From Research:
+- Industry trend: Moving to value over price
+- Avatar wants: Certainty, not savings
+- Competitors weak on: Personal touch
+
+Now analyzing transcripts WITH this context..."
+```
+
+### **8. File Organization Best Practice**
+
+```bash
+# After analysis complete, archive:
+/3-ARCHIVE/
+└── /[client-name]/
+    ├── /original-materials/    # The 7 files
+    ├── /analysis-history/      # All analysis docs
+    ├── /final-deliverables/    # What was implemented
+    └── /performance-data/      # Results tracking
+```
+
+This system ensures:
+- Nothing gets lost between onboarding and analysis
+- All context informs the output
+- Clear workflow from call to completion
+- Easy to track what stage each client is in
+- Cursor has access to EVERYTHING when analyzing
+
+The key is that **EVERYTHING flows through the INBOX first**, gets processed in ANALYSIS with full context, then outputs to CONTENT GENERATION. No jumping around, no lost information.

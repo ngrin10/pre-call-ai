@@ -26,7 +26,7 @@ PROJECT_ROOT="$(dirname "$SCRIPT_DIR")"
 # Paths
 CLIENT_DIR="${PROJECT_ROOT}/data/clients/${CLIENT_NAME}"
 CONFIG_FILE="${CLIENT_DIR}/client-config.yaml"
-TEMPLATE_FILE="${PROJECT_ROOT}/templates/claude-md-template.md"
+TEMPLATE_FILE="${PROJECT_ROOT}/prompts/01-forensic-analysis-system.md"
 OUTPUT_FILE="${CLIENT_DIR}/analysis/CLAUDE.md"
 
 # Check if client directory exists

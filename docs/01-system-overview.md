@@ -48,7 +48,7 @@ Our system identifies where prospects are and moves them up 2-3 levels before th
 ## Technical Components
 
 ### Prompts (Analysis Layer)
-1. `01-forensic-analysis.md` - Extract awareness indicators
+1. `01-forensic-analysis-system.md` - Unified analysis system (Quick/Batch/Project)
 2. `02-segment-synthesis.md` - Combine into profiles
 3. `03-content-generation.md` - Create content
 4. `04-review-refinement.md` - Quality control

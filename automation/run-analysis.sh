@@ -11,6 +11,11 @@ RED='\033[0;31m'
 PURPLE='\033[0;35m'
 NC='\033[0m' # No Color
 
+# Set up Slack integration
+export CLAUDE_PROJECT_ROOT="$(cd "$(dirname "$0")/.."; pwd)"
+export CLAUDE_HOOKS_DIR="$CLAUDE_PROJECT_ROOT/.claude/hooks"
+[ -f "$HOME/.scalestream-slack-config" ] && source "$HOME/.scalestream-slack-config"
+
 # Configuration
 CLIENT_NAME="$1"
 TOTAL_TRANSCRIPTS="${2:-15}"
@@ -39,6 +44,15 @@ major_notify() {
     echo -e "\a\a\a" # Multiple bells
     sleep 0.5
     echo -e "\a\a" # More bells
+    
+    # Send Slack notification if enabled
+    if [ "$SLACK_NOTIFICATIONS_ENABLED" = "true" ] && [ "$1" ]; then
+        python3 "$CLAUDE_PROJECT_ROOT/.claude/scripts/slack_integration.py" notify \
+            --task "$1" \
+            --type "$2" \
+            --status "$3" \
+            --details "$4" 2>/dev/null || true
+    fi
 }
 
 # Function to log with timestamp
@@ -111,6 +125,10 @@ process_all_batches() {
     
     echo "" # New line after progress bar
     echo -e "${GREEN}✅ All batches processed${NC}"
+    
+    # Slack notification for batch completion
+    major_notify "$CLIENT_NAME-batch-processing" "analysis" "completed" \
+        '{"batches_processed": '$TOTAL_BATCHES', "transcripts": '$TOTAL_TRANSCRIPTS'}'
 }
 
 # Function to create synthesis prompt
@@ -231,8 +249,23 @@ create_synthesis
 # Step 4: Generate Report
 generate_report
 
-# Completion notification
-major_notify
+# Completion notification with detailed Slack message
+details=$(cat <<EOF
+{
+    "client": "$CLIENT_NAME",
+    "transcripts_analyzed": $TOTAL_TRANSCRIPTS,
+    "batches_completed": $TOTAL_BATCHES,
+    "files_created": [
+        "analysis/segment-synthesis-prompt.md",
+        "analysis/analysis-report.md"
+    ],
+    "next_steps": "Run synthesis in Claude, then generate content"
+}
+EOF
+)
+
+major_notify "$CLIENT_NAME-analysis-complete" "analysis" "completed" "$details"
+
 echo ""
 echo -e "${GREEN}╔═══════════════════════════════════════╗${NC}"
 echo -e "${GREEN}║    ✅ ANALYSIS PIPELINE COMPLETE!     ║${NC}"

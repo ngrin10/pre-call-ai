@@ -1,0 +1,19 @@
+#!/bin/bash
+# Hook: Prompts for feedback after major tasks
+
+# Only trigger for significant tasks (multiple file changes or long running tasks)
+CHANGES_COUNT=$(find .claude/logs -name "changes_$(date +%Y-%m-%d).md" -exec grep -c "^##" {} \; 2>/dev/null || echo 0)
+
+# If more than 5 changes in current session, prompt for feedback
+if [ "$CHANGES_COUNT" -gt 5 ]; then
+    echo ""
+    echo "=== Task Complete - Quick Feedback ==="
+    echo "Would you like to provide feedback for this session? (y/n)"
+    read -n 1 -r response
+    echo ""
+    
+    if [[ $response =~ ^[Yy]$ ]]; then
+        # Launch feedback capture
+        .claude/scripts/feedback.sh quick
+    fi
+fi

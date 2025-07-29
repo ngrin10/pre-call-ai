@@ -68,7 +68,7 @@ B2C (Selling to Public)                    B2B (Selling to Rich/Executives)
 
 **What happens:**
 1. Script loads `client-brief.md` for context
-2. Creates analysis prompt using `/prompts/01-forensic-analysis.md`
+2. Creates analysis prompt using `/prompts/01-forensic-analysis-system.md`
 3. Applies V3.0 methodology from `/sops/v3-methodology.md`
 4. Outputs to `/data/clients/[client-name]/analysis/batch-1-prompt.md`
 
@@ -206,7 +206,7 @@ AUTOMATION LAYER
 └── /automation/generate-content.sh (content creation)
 
 PROMPT SEQUENCE
-├── /prompts/01-forensic-analysis.md (analyze transcripts)
+├── /prompts/01-forensic-analysis-system.md (unified analysis system)
 ├── /prompts/02-segment-synthesis.md (combine analyses)
 ├── /prompts/03-content-generation.md (create content)
 ├── /prompts/04-review-refinement.md (quality check)

@@ -29,6 +29,11 @@ Create personalized pre-call nurture content based on the awareness spectrum ana
 ### Problem Aware Content (60% of prospects)
 **Goal**: Move from "Curious" to "General Interest"
 
+**Reference Examples**:
+- Email: `/examples/winning/by-awareness-level/problem-aware/emails/B2C_Confirmation_Email_Problem_Aware.pdf`
+- Gamma: Follow structure from `/examples/winning/templates/assets/trust-assets/b2b/ScaleStream-Pre-Call-OS (6).pdf` slides 1-3
+- Pattern: Agitate problem → Show hidden costs → Soft education
+
 **Content Focus**:
 - Education about the problem's hidden costs
 - Introduction to solution category
@@ -54,6 +59,11 @@ P.S.: Relevant insight from their transcript
 ### Solution Aware Content (30% of prospects)
 **Goal**: Move from "General Interest" to "Serious"
 
+**Reference Examples**:
+- Email: `/examples/winning/by-awareness-level/solution-aware/emails/B2C_Confirmation_Email_Solution_Aware.pdf`
+- Gamma: See 3-part framework in `/examples/winning/templates/assets/trust-assets/b2b/ScaleStream-Pre-Call-OS (6).pdf` slide 6
+- Pattern: Acknowledge research → Compare approaches → Our methodology
+
 **Content Focus**:
 - Differentiation from other approaches
 - Methodology explanation
@@ -78,6 +88,11 @@ CTA: "Want to see the full case study?"
 
 ### Product Aware Content (8% of prospects)
 **Goal**: Move from "Serious" to "Convicted"
+
+**Reference Examples**:
+- Email: `/examples/winning/by-awareness-level/product-aware/emails/B2C_Confirmation_Email_Product_Aware.pdf`
+- Gamma: Full sales deck at `/examples/winning/templates/assets/trust-assets/b2b/ScaleStream-Pre-Call-OS (6).pdf`
+- Pattern: Competitive advantages → Urgency → Risk reversal
 
 **Content Focus**:
 - Direct competitive comparison
@@ -253,10 +268,62 @@ For each awareness level, provide:
 
 ---
 
+## 📚 Example References
+
+When generating content, always reference these winning examples:
+
+### Problem Aware Examples
+- **Emails**: `/examples/winning/by-awareness-level/problem-aware/emails/`
+- **Gamma Decks**: Slides 1-3 of ScaleStream deck
+- **Key Pattern**: "The Real Problem Most Teams Ignore"
+
+### Solution Aware Examples  
+- **Emails**: `/examples/winning/by-awareness-level/solution-aware/emails/`
+- **Gamma Decks**: 3-part framework from ScaleStream slide 6
+- **Key Pattern**: "What Separates Great from Good"
+
+### Product Aware Examples
+- **Emails**: `/examples/winning/by-awareness-level/product-aware/emails/`  
+- **Gamma Decks**: Full ScaleStream-Pre-Call-OS presentation
+- **Key Pattern**: "Built Different, Built Better"
+
+### Industry-Specific Examples
+- **B2B**: `/examples/winning/templates/assets/trust-assets/b2b/`
+- **B2C**: `/examples/winning/templates/assets/trust-assets/`
+
+## 🧠 Psychology Video References
+
+Apply psychological principles from these YouTube training videos:
+
+### For ALL Content Types
+- **Premium Positioning**: Apply principles from "JH: Selling To The Rich Vs The Public" 
+  - Location: `/examples/winning/templates/assets/psychology behind this/universal/selling-to-rich/`
+  - Use for: Language choices, value positioning, exclusivity messaging
+
+- **Trust Building**: Reference "JH: Turn Skeptical Leads Into Buyers Using Content Trust Assets"
+  - Location: `/examples/winning/templates/assets/psychology behind this/universal/trust-assets/`
+  - Use for: Proof selection, credibility elements, skepticism handling
+
+### For Specific Assets
+- **Email Sequences**: Watch "Month Email Sequence That Converts Like Crazy"
+  - Focus on: Nurture rhythm, value-first approach, engagement patterns
+  
+- **Thank You Pages**: Study "Thank you page (Ravi)"
+  - Focus on: Momentum maintenance, expectation setting, next-step clarity
+
+- **VSL/Video Content**: Reference "Month Video Sales Letter (VSL)"
+  - Focus on: Hook creation, story structure, CTA placement
+
+- **Pre-Call Nurture**: Apply "JH: Pre-call funnel" principles
+  - Focus on: Micro-commitments, show rate optimization, timing
+
+---
+
 ## Usage Instructions
 
 1. **Input the forensic analysis results**
-2. **Specify which awareness segments to focus on**
-3. **Generate content for each awareness level**
-4. **Review for spectrum movement strategy**
-5. **Customize based on industry and client specifics** 
+2. **Load relevant winning examples for the client's industry**
+3. **Specify which awareness segments to focus on**
+4. **Generate content matching winning example patterns**
+5. **Review for spectrum movement strategy**
+6. **Customize based on industry and client specifics** 
